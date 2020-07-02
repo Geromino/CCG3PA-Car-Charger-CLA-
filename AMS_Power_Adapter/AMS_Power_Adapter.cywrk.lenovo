@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Pins">
+<ExpandedNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\TopDesign</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Pins</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Clocks</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Interrupts</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\System</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Directives</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Flash Security</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_mode_hw.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_modes_mngr.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\cy_alt_mode.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\uvdm.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\vdm_task_mngr.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\app.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\battery_charging.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\billboard.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\pdo.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\psource.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\swap.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\type_a.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\vbus_ctrl.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\vdm.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\dpm.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\dpm_intern.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\pd.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\pd_policy_engine.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\pd_protocol.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\typec_manager.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\hal_ccgx.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\hpd.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\pdss_hal.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\alt_modes_config.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\app_version.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\config.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\cyapicallbacks.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\flash_config.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\instrumentation.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\stack_params.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\boot.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\ccg3pa_regs.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\ccgx_regs.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\ccgx_version.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\flash.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\gpio.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\status.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\system.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\timer.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\system\utils.h</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\alt_mode_hw.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\alt_modes_mngr.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\cy_alt_mode.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\uvdm.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\vdm_task_mngr.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\app.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\battery_charging.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\fault_handlers.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\pdo.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\psource.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\swap.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\type_a.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\vbus_ctrl.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app\vdm.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal\hal_ccgx.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal\pdss_mx_hal.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\solution</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\solution\config.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\solution\datamux_ctrl.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\solution\instrumentation.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\solution\main.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\system</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\system\boot.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\system\flash.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\system\gpio.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\system\system.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\system\timer.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\system\utils.c</v>
+<v>AMS_Power_Adapter\Car Charger\Generated_Source</v>
+<v>AMS_Power_Adapter\Car Charger\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\TopDesign</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Pins</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Clocks</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Interrupts</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\System</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Directives</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Flash Security</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_mode_hw.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_modes_mngr.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\cy_alt_mode.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\uvdm.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\vdm_task_mngr.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\app.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\battery_charging.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\billboard.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\pdo.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\psource.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\swap.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\type_a.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\vbus_ctrl.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\vdm.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\dpm.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\TopDesign</v>
+<v>AMS_Power_Adapter\Car Charger\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\TopDesign</v>
+<v>AMS_Power_Adapter\Car Charger\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\alt_mode_hw.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\alt_modes_mngr.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\app.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\battery_charging.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\boot.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Bootloadable_1.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\config.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_alt_mode.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cybootloader.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\datamux_ctrl.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\fault_handlers.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\flash.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\gpio.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\hal_ccgx.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\instrumentation.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\pdo.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\pdss_mx_hal.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_BCH_CLK.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_FILT_CLK_SEL.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_ISINK_CLK.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_RX_CLK.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_SAR_CLK.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_TX_CLK.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORTX_REFGEN_CLK.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\psource.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\swap.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\system.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\timer.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\type_a.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\utils.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\uvdm.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\vbus_ctrl.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\vdm.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\vdm_task_mngr.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.cyacd</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.elf</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.hex</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.map</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.gpdsc</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger.rpt</v>
+<v>AMS_Power_Adapter\Car Charger\Car Charger_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\alt_mode_hw.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\alt_modes_mngr.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\app.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\battery_charging.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\boot.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Bootloadable_1.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\config.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_alt_mode.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cybootloader.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\PSoC 4 Architecture TRM</v>
+<v>AMS_Power_Adapter\Car Charger\CCG3PA Family Datasheet</v>
+<v>AMS_Power_Adapter\Car Charger\System Reference Guides</v>
+<v>AMS_Power_Adapter\Car Charger\System Reference Guides\cy_boot_v5_90</v>
+<v>AMS_Power_Adapter\Car Charger\System Reference Guides\cy_lfclk_v1_20</v>
+<v>AMS_Power_Adapter\Car Charger\Bootloadable_v1_60.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20</v>
+<v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20</v>
+<v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AMS_Power_Adapter</v>
+<v>AMS_Power_Adapter\Car Charger</v>
+<v>AMS_Power_Adapter\Car Charger\PSoC 4 Architecture TRM</v>
+<v>AMS_Power_Adapter\Car Charger\CCG3PA Family Datasheet</v>
+<v>AMS_Power_Adapter\Car Charger\System Reference Guides</v>
+<v>AMS_Power_Adapter\Car Charger\System Reference Guides\cy_boot_v5_90</v>
+<v>AMS_Power_Adapter\Car Charger\System Reference Guides\cy_lfclk_v1_20</v>
+<v>AMS_Power_Adapter\Car Charger\Bootloadable_v1_60.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20</v>
+<v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20</v>
+<v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

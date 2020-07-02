@@ -1,0 +1,6 @@
+net Net_450
+	term   ":m0s8tcpwmcell_0.line"
+	switch ":m0s8tcpwmcell_0.line==>:ioport0:hsiom_out0.fixed_ACT_1"
+	switch ":ioport0:hsiom_out0.hsiom0_out==>:ioport0:pin0.pin_input"
+	term   ":ioport0:pin0.pin_input"
+end Net_450

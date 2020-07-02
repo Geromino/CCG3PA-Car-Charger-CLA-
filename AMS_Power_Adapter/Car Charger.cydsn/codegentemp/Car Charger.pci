@@ -1,0 +1,8 @@
+# Car Charger
+# 2020-07-02 22:36:14Z
+
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "BUCK_BOOST_EN_C(0)" iocell 1 1
+set_io "PWM_OUT_A(0)" iocell 0 0
+set_io "BUCK_BOOST_EN_A(0)" iocell 2 2
+set_io "TYPE_A_VBUS_EN(0)" iocell 0 1

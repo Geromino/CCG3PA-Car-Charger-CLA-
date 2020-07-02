@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pindata xsi:schemaLocation="http://cypress.com/xsd/cypindata_v2 ../../dtd/cypindata_v2.xsd" device="CYPD3171-24LQXQ" package="24-QFN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cypindata_v2">
+  <capabilities>
+    <capability name="DIGITAL" value="0x0000000000000001" />
+    <capability name="ANALOG" value="0x0000000000000002" />
+    <capability name="ROUTABLE" value="0x0000000000000004" />
+    <capability name="GPIO" value="0x0000000000000010" />
+    <capability name="SIO" value="0x0000000000000020" />
+    <capability name="OVTIO" value="0x0000000000000040" />
+    <capability name="TRUETOUCH" value="0x0000000000000080" />
+    <capability name="DAC_HI_OUT" value="0x0000000000000100" />
+    <capability name="ABUF_POS" value="0x0000000000000200" />
+    <capability name="ABUF_OUT" value="0x0000000000000400" />
+    <capability name="ABUF_NEG" value="0x0000000000000800" />
+    <capability name="SWD" value="0x0000000000001000" />
+    <capability name="SWO" value="0x0000000000002000" />
+    <capability name="JTAG" value="0x0000000000004000" />
+    <capability name="JTAG_NTRST" value="0x0000000000008000" />
+    <capability name="XRES" value="0x0000000000010000" />
+    <capability name="TRACE" value="0x0000000000020000" />
+    <capability name="WAKEUP" value="0x0000000000040000" />
+    <capability name="I2CWKUP_SDA" value="0x0000000000100000" />
+    <capability name="I2CWKUP_SCL" value="0x0000000000200000" />
+    <capability name="USB_D_PLUS" value="0x0000000000400000" />
+    <capability name="USB_D_MINUS" value="0x0000000000800000" />
+    <capability name="ECO_MHZ_XO" value="0x0000000001000000" />
+    <capability name="ECO_MHZ_XI" value="0x0000000002000000" />
+    <capability name="ECO_32KHZ_XO" value="0x0000000004000000" />
+    <capability name="ECO_32KHZ_XI" value="0x0000000008000000" />
+    <capability name="DSM_EXT_PIN_ONE" value="0x0000000010000000" />
+    <capability name="DSM_EXT_PIN_TWO" value="0x0000000020000000" />
+    <capability name="SAR_EXT_PIN" value="0x0000000040000000" />
+    <capability name="EXTSYNC" value="0x0000000100000000" />
+    <capability name="EXTREJECT" value="0x0000000200000000" />
+    <capability name="EXTCLK" value="0x0000000400000000" />
+    <capability name="EXT_VREF" value="0x0000000800000000" />
+    <capability name="PORT_INTERRUPT" value="0x0000001000000000" />
+    <capability name="HOTSWAP" value="0x0000002000000000" />
+    <capability name="LCD_COM" value="0x0000004000000000" />
+    <capability name="LCD_SEG" value="0x0000008000000000" />
+    <capability name="CSD_SHIELD_TANK" value="0x0000010000000000" />
+    <capability name="CSD_CMOD" value="0x0000020000000000" />
+  </capabilities>
+  <pins>
+    <pin number="1" name="GPIO1">
+      <pad name="P1[0]" number="1" type="GPIO" portId="1" pinId="0" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="line" alternative="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_overflow" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="uart_cts" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="adc_cmp_out_gpio" wire="1" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="fault_gpio0" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="spi_select" wire="0" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="select_m" wire="0" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="select_m" wire="1" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="select_m" wire="2" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="select_m" wire="3" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="select_s" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="i2c_sda" alternative="1" />
+      </pad>
+    </pin>
+    <pin number="2" name="GPIO2">
+      <pad name="P1[1]" number="2" type="GPIO" portId="1" pinId="1" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_in" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="start" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="reload" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="stop" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="count" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="capture" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_in" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="start" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="reload" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="stop" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="count" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="capture" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_in" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="start" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="reload" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="stop" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="count" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="capture" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_in" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="start" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="reload" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="stop" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="count" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="capture" wire="0" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="line" alternative="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_overflow" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="uart_rts" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="tx_data_en" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="fault_gpio1" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="spi_miso" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="miso_m" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="miso_s" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="i2c_scl" alternative="1" />
+      </pad>
+    </pin>
+    <pin number="3" name="VBUS_P_CTRL">
+      <pad name="VBUS_P_CTRL" number="4" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_pgdo_pu_ctrl" wire="0" />
+      </pad>
+    </pin>
+    <pin number="4" name="VBUS_C_CTRL">
+      <pad name="VBUS_C_CTRL" number="5" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_pgdo_ctrl" wire="0" />
+      </pad>
+    </pin>
+    <pin number="5" name="DP1_GPIO">
+      <pad name="P1[2]" number="7" type="GPIO" portId="1" pinId="2" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_overflow" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="uart_tx" alternative="1" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="adc_cmp_out_gpio" wire="0" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="hpd" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="spi_mosi" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="mosi_m" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="mosi_s" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="usbphy_dp_bch_det" wire="1" />
+      </pad>
+    </pin>
+    <pin number="6" name="DM1_GPIO">
+      <pad name="P1[3]" number="8" type="GPIO" portId="1" pinId="3" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_overflow" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="uart_rx" alternative="1" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="swapt_in" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="gpio_rx_frs" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="spi_clk" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="sclk_m" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="sclk_s" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="usbphy_dm_bch_det" wire="1" />
+      </pad>
+    </pin>
+    <pin number="7" name="SWD_DATA0">
+      <pad name="P0[0]" number="9" type="OVTIO" portId="0" pinId="0" ioSupplyPin="VDDIO" capabilities="0x0000003000001053">
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_in" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="start" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="reload" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="stop" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="count" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="capture" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_in" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="start" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="reload" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="stop" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="count" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="capture" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_in" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="start" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="reload" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="stop" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="count" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="capture" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_in" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="start" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="reload" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="stop" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="count" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="capture" wire="1" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="line" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_compare_match" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="uart_cts" />
+        <ffbterm ffbtype="CPUSS" ffbid="0" term="swd_data" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="spi_mosi" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="mosi_m" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="mosi_s" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="i2c_sda" />
+      </pad>
+    </pin>
+    <pin number="8" name="SWD_CLK0">
+      <pad name="P0[1]" number="10" type="OVTIO" portId="0" pinId="1" ioSupplyPin="VDDIO" capabilities="0x0000003000001053">
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_in" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="start" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="reload" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="stop" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="count" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="capture" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_in" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="start" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="reload" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="stop" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="count" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="capture" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_in" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="start" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="reload" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="stop" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="count" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="capture" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_in" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="start" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="reload" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="stop" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="count" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="capture" wire="2" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="line" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_compare_match" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="uart_rts" />
+        <ffbterm ffbtype="CPUSS" ffbid="0" term="swd_clk" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="spi_miso" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="miso_m" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="miso_s" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="i2c_scl" />
+      </pad>
+    </pin>
+    <pin number="9" name="GPIO_AXRES">
+      <pad name="P2[0]" number="12" type="GPIO" portId="2" pinId="0" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_in" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="start" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="reload" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="stop" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="count" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="capture" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_in" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="start" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="reload" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="stop" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="count" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="capture" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_in" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="start" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="reload" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="stop" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="count" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="capture" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_in" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="start" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="reload" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="stop" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="count" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="capture" wire="3" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="line" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_compare_match" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="uart_tx" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="swapt_out" wire="0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="spi_select" wire="0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="select_m" wire="0" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="select_m" wire="1" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="select_m" wire="2" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="select_m" wire="3" resource="spi_select_0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="select_s" resource="spi_select_0" />
+      </pad>
+    </pin>
+    <pin number="10" name="GPIO3">
+      <pad name="P2[1]" number="13" type="GPIO" portId="2" pinId="1" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_in" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="start" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="reload" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="stop" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="count" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="capture" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_in" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="start" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="reload" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="stop" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="count" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="capture" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_in" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="start" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="reload" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="stop" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="count" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="capture" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_in" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="start" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="reload" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="stop" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="count" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="capture" wire="4" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="line" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_compare_match" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="uart_rx" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="swapt_out" wire="1" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="spi_clk" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="sclk_m" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="sclk_s" />
+      </pad>
+    </pin>
+    <pin number="11" name="VBUS_C_MON_DISCHARGE">
+      <pad name="VBUS_C_MON" number="14" type="PWR" ioSupplyPin="VDDIO" powerPadNames="VBUS_C_MON" capabilities="0x0000000000000000" />
+    </pin>
+    <pin number="12" name="SBU1">
+      <pad name="SBU1" number="15" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_sbu" wire="0" />
+      </pad>
+      <pad name="P2[2]" number="24" type="GPIO" portId="2" pinId="2" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_in" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="start" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="reload" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="stop" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="count" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="capture" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_in" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="start" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="reload" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="stop" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="count" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="capture" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_in" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="start" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="reload" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="stop" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="count" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="capture" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_in" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="start" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="reload" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="stop" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="count" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="capture" wire="5" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="line" alternative="1" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="uart_tx" alternative="1" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="gpio_ddft1" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="afc_tx_data" wire="0" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="i2c_sda" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="sbu_io" wire="0" />
+      </pad>
+    </pin>
+    <pin number="13" name="SBU2">
+      <pad name="SBU2" number="18" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_sbu" wire="1" />
+      </pad>
+      <pad name="P2[3]" number="25" type="GPIO" portId="2" pinId="3" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="tr_in" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="start" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="reload" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="stop" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="count" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="0" term="capture" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="tr_in" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="start" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="reload" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="stop" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="count" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="capture" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="tr_in" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="start" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="reload" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="stop" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="count" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="2" term="capture" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="tr_in" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="start" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="reload" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="stop" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="count" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="3" term="capture" wire="6" />
+        <ffbterm ffbtype="TCPWM" ffbid="1" term="line" alternative="1" />
+        <ffbterm ffbtype="SCB" ffbid="0" term="uart_rx" alternative="1" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="gpio_ddft0" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="afc_tx_data" wire="1" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="i2c_scl" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="sbu_io" wire="1" />
+      </pad>
+    </pin>
+    <pin number="14" name="CC2">
+      <pad name="CC2" number="22" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_cc2_0" />
+      </pad>
+      <pad name="RD2" number="23" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_core_rd2" />
+      </pad>
+    </pin>
+    <pin number="15" name="CC1">
+      <pad name="CC1" number="20" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_cc1_0" />
+      </pad>
+      <pad name="RD1" number="21" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_core_rd1" />
+      </pad>
+    </pin>
+    <pin number="16" name="DM0_GPIO">
+      <pad name="P3[1]" number="27" type="GPIO" portId="3" pinId="1" ioSupplyPin="VDDIO" capabilities="0x0000001000000013">
+        <ffbterm ffbtype="SCB" ffbid="1" term="uart_rx" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="afc_tx_data_en" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="usbphy_dm_bch_det" wire="0" />
+      </pad>
+      <pad name="DM0" number="29" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_usbphy_dm_bch_det" wire="0" />
+      </pad>
+    </pin>
+    <pin number="17" name="DP0_GPIO">
+      <pad name="P3[0]" number="26" type="GPIO" portId="3" pinId="0" ioSupplyPin="VDDIO" capabilities="0x0000001400000013">
+        <ffbterm ffbtype="SRSS" ffbid="0" term="ext_clk" />
+        <ffbterm ffbtype="SCB" ffbid="1" term="uart_tx" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="tx_data" />
+        <ffbterm ffbtype="USBPD" ffbid="0" term="usbphy_dp_bch_det" wire="0" />
+      </pad>
+      <pad name="DP0" number="28" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_usbphy_dp_bch_det" wire="0" />
+      </pad>
+    </pin>
+    <pin number="18" name="VBUS_IN_DISCHARGE">
+      <pad name="VBUS_IN" number="30" type="PWR" ioSupplyPin="VDDIO" powerPadNames="VBUS_IN" capabilities="0x0000000000000000" />
+    </pin>
+    <pin number="19" name="CSP">
+      <pad name="CSP" number="33" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_lscsa_inp" wire="0" />
+      </pad>
+    </pin>
+    <pin number="20" name="FB">
+      <pad name="FB" number="34" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_fb" wire="0" />
+      </pad>
+    </pin>
+    <pin number="21" name="CATH_COMP">
+      <pad name="CATH_COMP" number="36" type="DEDICATED" ioSupplyPin="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_cath" wire="0" />
+      </pad>
+    </pin>
+    <pin number="22" name="VSS">
+      <pad name="VSSD_1" number="16" type="GND" ioSupplyPin="VDDD" powerPadNames="VSSD_1" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_dischg_vgnd" wire="1" />
+      </pad>
+      <pad name="VSSD_2" number="17" type="GND" ioSupplyPin="VDDD" powerPadNames="VSSD_2" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_cc_vgnd" wire="0" />
+      </pad>
+      <pad name="VSSD_3" number="19" type="GND" ioSupplyPin="VDDD" powerPadNames="VSSD_3" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_cc_vgnd" wire="1" />
+      </pad>
+      <pad name="VSSD_4" number="31" type="GND" ioSupplyPin="VDDD" powerPadNames="VSSD_4" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_dischg_vgnd" wire="0" />
+      </pad>
+      <pad name="VSSD_7" number="32" type="GND" ioSupplyPin="VDDD" powerPadNames="VSSD_7" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_lscsa_vgnd" wire="0" />
+      </pad>
+      <pad name="VSSD_5" number="35" type="GND" ioSupplyPin="VDDD" powerPadNames="VSSD_5" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="USBPD" ffbid="0" term="pad_ea_vgnd" wire="0" />
+      </pad>
+    </pin>
+    <pin number="23" name="VDDD">
+      <pad name="VDDQ" number="40" type="PWR" ioSupplyPin="VDDD" powerPadNames="VDDQ" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="SRSS" ffbid="0" term="pad_vddq" />
+      </pad>
+      <pad name="VDDD" number="41" type="PWR" ioSupplyPin="VDDD" powerPadNames="VDDD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="SRSS" ffbid="0" term="pad_vddd" />
+      </pad>
+      <pad name="VDDIO" number="42" type="PWR" ioSupplyPin="VDDIO" powerPadNames="VDDIO" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="SRSS" ffbid="0" term="pad_vccq_or_vddio" />
+      </pad>
+    </pin>
+    <pin number="24" name="VCCD">
+      <pad name="VCCD" number="43" type="PWR" ioSupplyPin="VDDIO" powerPadNames="VCCD" capabilities="0x0000000000000000">
+        <ffbterm ffbtype="SRSS" ffbid="0" term="pad_vccd" />
+      </pad>
+    </pin>
+  </pins>
+</pindata>
