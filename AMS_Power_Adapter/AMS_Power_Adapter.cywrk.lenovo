@@ -75,6 +75,7 @@
 <v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\cy_alt_mode.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\uvdm.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\vdm_task_mngr.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\app</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\app\app.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\app\battery_charging.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\app\fault_handlers.c</v>
@@ -99,7 +100,6 @@
 <v>AMS_Power_Adapter\Car Charger\Source Files\system\utils.c</v>
 <v>AMS_Power_Adapter\Car Charger\Generated_Source</v>
 <v>AMS_Power_Adapter\Car Charger\Generated_Source\PSoC4</v>
-<v>AMS_Power_Adapter\Car Charger\Generated_Source\PSoC4\UART</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>AMS_Power_Adapter</v>
@@ -199,24 +199,14 @@
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A_PM.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\swap.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\system.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\timer.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\type_a.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART_BOOT.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\utils.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\uvdm.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\vbus_ctrl.lst</v>
@@ -280,7 +270,7 @@
 <v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>AMS_Power_Adapter\Car Charger\SCB_P4_v4_0.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\SW_Tx_UART_v1_50.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\TCPWM_P4_v2_10.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -296,7 +286,7 @@
 <v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>AMS_Power_Adapter\Car Charger\SCB_P4_v4_0.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\SW_Tx_UART_v1_50.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\TCPWM_P4_v2_10.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -312,11 +302,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Car Charger.cydsn\src\app\app.c" />
-<name v=".\Car Charger.cydsn\noboot.cydsn\config.h" />
+<name v=".\Car Charger.cydsn\Car Charger.cydwr" />
+<name v=".\Car Charger.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\Car Charger.cydsn\common\main.c" />
-<name v=".\Car Charger.cydsn\noboot.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Car Charger.cydsn\noboot.cydsn\noboot.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -324,7 +312,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1027, 338" SelectedTabbedMdiWindow="6e5986f3-19ff-4f52-9989-72479a0517dc"><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\src\app\app.c" Guid="72dacf2f-cab2-4ff5-9c41-fbae84042578" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\config.h" Guid="4a513435-845d-4b7a-9df4-18ce16c8e724" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\common\main.c" Guid="a123e2ef-c1ee-4710-9626-d6b73bd7f27e" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\TopDesign\TopDesign.cysch" Guid="6e5986f3-19ff-4f52-9989-72479a0517dc" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\noboot.cydwr" Guid="125cf821-e533-45a7-ad86-b62c214ece58" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1045, 402" SelectedTabbedMdiWindow="524b4417-d5ec-499e-91ec-5655e91838e4"><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\Car Charger.cydwr" Guid="b0d7b704-22a6-4550-8c88-7d5926c09cb0" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\TopDesign\TopDesign.cysch" Guid="5d3d5ed0-e052-4287-8a27-b6a72f3d6f90" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\common\main.c" Guid="524b4417-d5ec-499e-91ec-5655e91838e4" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

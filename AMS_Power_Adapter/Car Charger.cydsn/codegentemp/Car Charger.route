@@ -4,16 +4,3 @@ net Net_450
 	switch ":ioport0:hsiom_out0.hsiom0_out==>:ioport0:pin0.pin_input"
 	term   ":ioport0:pin0.pin_input"
 end Net_450
-net \UART:rx_wire\
-	term   ":ioport1:pin3.fb"
-	switch ":ioport1:pin3.fb==>:ioport1:hsiom_in3.hsiom3_in"
-	switch ":ioport1:hsiom_in3.fixed_ACT_3==>:m0s8scbcell_1__uart_rx__hsiom_permute.ioport1__fixed_out_p3_ACT_3"
-	switch ":m0s8scbcell_1__uart_rx__hsiom_permute.m0s8scbcell_1__uart_rx==>:m0s8scbcell_1.uart_rx"
-	term   ":m0s8scbcell_1.uart_rx"
-end \UART:rx_wire\
-net \UART:tx_wire\
-	term   ":m0s8scbcell_1.uart_tx"
-	switch ":m0s8scbcell_1.uart_tx==>:ioport1:hsiom_out2.fixed_ACT_3"
-	switch ":ioport1:hsiom_out2.hsiom2_out==>:ioport1:pin2.pin_input"
-	term   ":ioport1:pin2.pin_input"
-end \UART:tx_wire\

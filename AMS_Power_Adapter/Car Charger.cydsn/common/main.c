@@ -59,6 +59,7 @@
 #include <utils.h>
 #include <gpio.h>
 #include <instrumentation.h>
+#include <stdio.h>
 
 #if RIDGE_SLAVE_ENABLE
 #include <ridge_slave.h>
@@ -321,15 +322,41 @@ update_hpi_regs (
 #if APP_FW_LED_ENABLE
 
 /* Blink the LED every LED_TIMER_PERIOD ms. This serves as an indication of the firmware running. */
-void led_timer_cb (
-    uint8_t port,
-    timer_id_t id)
+void led_timer_cb (uint8_t port,timer_id_t id)
 {
     (void)port;
     (void)id;
-    UART_UartPutString("welcome AMS world!!!");
-    UART_UartPutChar(0x0D);
-    UART_UartPutChar(0x0A);
+    
+    uint16_t dpm_voltage=0,dpm_current=0,Voltage_PDSS=0,Current_PDSS=0;
+    
+    
+    
+      const    dpm_status_t *dpm_stat=dpm_get_info(0);
+    
+       if(dpm_stat -> contract_exist == true)
+        {
+            dpm_voltage = dpm_stat->contract.max_volt / 100;
+            dpm_current = dpm_stat->contract.cur_pwr / 5;
+        }
+        
+        Voltage_PDSS = pd_hal_measure_vbus(0);
+
+        Current_PDSS = pd_hal_measure_vbus_cur(0);
+    
+        SW_Tx_UART_PutString("DPM Volt ");
+        SW_Tx_UART_PutHexInt(dpm_voltage);
+        
+        SW_Tx_UART_PutString("\tDPM Curr ");
+        SW_Tx_UART_PutHexInt(dpm_current);
+        
+        SW_Tx_UART_PutString("\tCurr_PDSS ");
+        SW_Tx_UART_PutHexInt(Current_PDSS);
+        
+        SW_Tx_UART_PutString("\tVolt_PDSS ");
+        SW_Tx_UART_PutHexInt(Voltage_PDSS);
+        SW_Tx_UART_PutCRLF();
+        
+        
     gpio_set_value (FW_LED_GPIO_PORT_PIN, !(gpio_read_value (FW_LED_GPIO_PORT_PIN)));
     timer_start (0, LED_TIMER_ID, LED_TIMER_PERIOD, led_timer_cb);
 }
@@ -447,7 +474,7 @@ int main()
 {
     uint32_t conf_addr;
     uint8_t  port;
-    
+
     /* Remove internal feedback divider */
     pd_remove_internal_fb_res_div(); 
     
@@ -496,7 +523,7 @@ int main()
     /* Enable global interrupts */
     CyGlobalIntEnable;
     
-    UART_Start();
+    SW_Tx_UART_Start();
 
 #if RIDGE_SLAVE_ENABLE
     /* Initialize the Alpine-Ridge slave interface. */
@@ -587,16 +614,18 @@ int main()
     /* Initialize CCG polling tasks. */
     ccg_app_task_init ();
     
-    uint16_t dpm_voltage=0,dpm_current=0,Voltage_PDSS=0,Current_PDSS=0;
+        SW_Tx_UART_PutString("Demo  request device  info to be charged");
+        SW_Tx_UART_PutCRLF();
 
     while (1)
     {
+
         /* Handle the device policy tasks for each PD port. */
         for (port = PORT_START_IDX ; port < NO_OF_TYPEC_PORTS; port++)
         {
             dpm_task(port);
             app_task(port);
-
+            
 #if CCG_HPI_ENABLE
             /* Handle any pending HPI commands. */
             hpi_task ();
@@ -612,5 +641,8 @@ int main()
 #endif /* SYS_DEEPSLEEP_ENABLE */
     }
 }
+
+
+
 
 /* End of file */

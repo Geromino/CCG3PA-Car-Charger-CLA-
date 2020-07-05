@@ -54,6 +54,7 @@
       <Data key="de87faf3-9bb1-45c1-ba0e-d36a0310101a" value="DP_C" />
       <Data key="e02b493d-eb51-4cb0-90b7-73095a0592f9/5382e105-1382-4a2e-b9f4-3bb2feba71e0" value="MUX_CTRL_sda" />
       <Data key="e02b493d-eb51-4cb0-90b7-73095a0592f9/22863ebe-a37b-476f-b252-6e49a8c00b12" value="MUX_CTRL_scl" />
+      <Data key="e345df58-c400-4087-bbe4-b43467d74f6a/52f31aa9-2f0a-497d-9a1f-1424095e13e6" value="SW_Tx_UART_tx" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="TYPE_A_VBUS_EN" />
       <Data key="e7694edc-b7b5-4fa4-b65e-d0640954f9c4" value="DP_DM_SHORT_EN_A" />
       <Data key="e96003ad-9042-4efe-9a59-6b0c7b7d46cd" value="BC_EN_C" />
@@ -3719,6 +3720,11 @@
       </Group>
     </Group>
     <Group key="e02b493d-eb51-4cb0-90b7-73095a0592f9/22863ebe-a37b-476f-b252-6e49a8c00b12">
+      <Group key="0">
+        <Data key="Port Format" value="1,2" />
+      </Group>
+    </Group>
+    <Group key="e345df58-c400-4087-bbe4-b43467d74f6a/52f31aa9-2f0a-497d-9a1f-1424095e13e6">
       <Group key="0">
         <Data key="Port Format" value="1,2" />
       </Group>
