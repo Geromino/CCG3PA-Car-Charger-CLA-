@@ -590,7 +590,7 @@
  * valid value if APP_FW_LED_ENABLE is non-zero.
  */
 #define FW_LED_GPIO_PORT_PIN                        (GPIO_PORT_2_PIN_3)
-#define APP_DEBUG_DEVICE_TO_CHARGE_REQUEST          (1u)
+#define APP_DEBUG_DEVICE_TO_CHARGE_REQUEST          (0u)
 
 /*
  * Timer ID allocation for various solution soft timers.
