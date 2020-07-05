@@ -1,5 +1,5 @@
 -- Project:   Car Charger
--- Generated: 07/05/2020 11:24:51
+-- Generated: 07/05/2020 16:33:26
 -- PSoC Creator  4.3
 
 ENTITY \Car Charger\ IS
@@ -7,7 +7,9 @@ ENTITY \Car Charger\ IS
         BUCK_BOOST_EN_C(0)_PAD : OUT std_ulogic;
         PWM_OUT_A(0)_PAD : OUT std_ulogic;
         BUCK_BOOST_EN_A(0)_PAD : OUT std_ulogic;
-        TYPE_A_VBUS_EN(0)_PAD : OUT std_ulogic);
+        TYPE_A_VBUS_EN(0)_PAD : OUT std_ulogic;
+        \UART:tx(0)_PAD\ : INOUT std_ulogic;
+        \UART:rx(0)_PAD\ : IN std_ulogic);
     ATTRIBUTE voltage_VDDQ OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDDD OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDDIO OF __DEFAULT__ : ENTITY IS 3.3e0;
@@ -31,8 +33,25 @@ ARCHITECTURE __DEFAULT__ OF \Car Charger\ IS
     SIGNAL Net_459 : bit;
     SIGNAL Net_460 : bit;
     SIGNAL Net_461 : bit;
+    SIGNAL Net_483 : bit;
+    SIGNAL Net_485 : bit;
+    SIGNAL Net_486 : bit;
     SIGNAL PWM_OUT_A(0)__PA : bit;
     SIGNAL TYPE_A_VBUS_EN(0)__PA : bit;
+    SIGNAL \UART:Net_847_ff0\ : bit;
+    ATTRIBUTE global_signal OF \UART:Net_847_ff0\ : SIGNAL IS true;
+    SIGNAL \UART:miso_s_wire\ : bit;
+    SIGNAL \UART:mosi_m_wire\ : bit;
+    SIGNAL \UART:rts_wire\ : bit;
+    SIGNAL \\\UART:rx(0)\\__PA\ : bit;
+    SIGNAL \UART:rx_wire\ : bit;
+    SIGNAL \UART:sclk_m_wire\ : bit;
+    SIGNAL \UART:select_m_wire_0\ : bit;
+    SIGNAL \UART:select_m_wire_1\ : bit;
+    SIGNAL \UART:select_m_wire_2\ : bit;
+    SIGNAL \UART:select_m_wire_3\ : bit;
+    SIGNAL \\\UART:tx(0)\\__PA\ : bit;
+    SIGNAL \UART:tx_wire\ : bit;
     SIGNAL __ONE__ : bit;
     ATTRIBUTE POWER OF __ONE__ : SIGNAL IS true;
     SIGNAL __ZERO__ : bit;
@@ -46,6 +65,8 @@ ARCHITECTURE __DEFAULT__ OF \Car Charger\ IS
     ATTRIBUTE Location OF PWM_OUT_A(0) : LABEL IS "P0[0]";
     ATTRIBUTE Location OF BUCK_BOOST_EN_A(0) : LABEL IS "P2[2]";
     ATTRIBUTE Location OF TYPE_A_VBUS_EN(0) : LABEL IS "P0[1]";
+    ATTRIBUTE Location OF \UART:tx(0)\ : LABEL IS "P1[2]";
+    ATTRIBUTE Location OF \UART:rx(0)\ : LABEL IS "P1[3]";
     COMPONENT iocell
         PORT (
             oe : IN std_ulogic;
@@ -200,6 +221,30 @@ ARCHITECTURE __DEFAULT__ OF \Car Charger\ IS
             gen_clk_out_6 : OUT std_ulogic;
             gen_clk_out_7 : OUT std_ulogic);
     END COMPONENT;
+    COMPONENT m0s8scbcell
+        PORT (
+            clock : IN std_ulogic;
+            interrupt : OUT std_ulogic;
+            uart_cts : IN std_ulogic;
+            uart_rts : OUT std_ulogic;
+            uart_rx : IN std_ulogic;
+            uart_tx : OUT std_ulogic;
+            mosi_m : OUT std_ulogic;
+            miso_m : IN std_ulogic;
+            select_m_0 : OUT std_ulogic;
+            select_m_1 : OUT std_ulogic;
+            select_m_2 : OUT std_ulogic;
+            select_m_3 : OUT std_ulogic;
+            sclk_m : OUT std_ulogic;
+            mosi_s : IN std_ulogic;
+            miso_s : OUT std_ulogic;
+            select_s : IN std_ulogic;
+            sclk_s : IN std_ulogic;
+            i2c_scl : IN std_ulogic;
+            i2c_sda : IN std_ulogic;
+            tr_rx_req : OUT std_ulogic;
+            tr_tx_req : OUT std_ulogic);
+    END COMPONENT;
     COMPONENT m0s8tcpwmcell
         PORT (
             clock : IN std_ulogic;
@@ -227,7 +272,8 @@ BEGIN
             sysclk => ClockBlock_SYSCLK,
             ilo => ClockBlock_ILO,
             lfclk => ClockBlock_LFCLK,
-            ff_div_2 => Net_361_ff2);
+            ff_div_2 => Net_361_ff2,
+            ff_div_0 => \UART:Net_847_ff0\);
 
     BUCK_BOOST_EN_C:logicalport
         GENERIC MAP(
@@ -591,6 +637,189 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
+    \UART:tx\:logicalport
+        GENERIC MAP(
+            drive_mode => "110",
+            ibuf_enabled => "0",
+            id => "43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/23b8206d-1c77-4e61-be4a-b4037d5de5fc",
+            init_dr_st => "1",
+            input_buffer_sel => "00",
+            input_clk_en => 0,
+            input_sync => "0",
+            input_sync_mode => "0",
+            intr_mode => "00",
+            invert_in_clock => 0,
+            invert_in_clock_en => 0,
+            invert_in_reset => 0,
+            invert_out_clock => 0,
+            invert_out_clock_en => 0,
+            invert_out_reset => 0,
+            io_voltage => "",
+            layout_mode => "CONTIGUOUS",
+            oe_conn => "0",
+            oe_reset => 0,
+            oe_sync => "0",
+            output_clk_en => 0,
+            output_clock_mode => "0",
+            output_conn => "1",
+            output_mode => "0",
+            output_reset => 0,
+            output_sync => "0",
+            ovt_hyst_trim => "0",
+            ovt_needed => "0",
+            ovt_slew_control => "00",
+            pa_in_clock => -1,
+            pa_in_clock_en => -1,
+            pa_in_reset => -1,
+            pa_out_clock => -1,
+            pa_out_clock_en => -1,
+            pa_out_reset => -1,
+            pin_aliases => "",
+            pin_mode => "B",
+            por_state => 4,
+            port_alias_group => "",
+            port_alias_required => 0,
+            sio_group_cnt => 0,
+            sio_hifreq => "00000000",
+            sio_hyst => "1",
+            sio_ibuf => "00000000",
+            sio_info => "00",
+            sio_obuf => "00000000",
+            sio_refsel => "00000000",
+            sio_vohsel => "00000000",
+            sio_vtrip => "00000000",
+            slew_rate => "0",
+            spanning => 0,
+            sw_only => 0,
+            use_annotation => "0",
+            vtrip => "00",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0)
+        PORT MAP(
+            in_clock_en => open,
+            in_reset => open,
+            out_clock_en => open,
+            out_reset => open);
+
+    \UART:tx(0)\:iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "\UART:tx\",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
+        PORT MAP(
+            pa_out => \\\UART:tx(0)\\__PA\,
+            oe => open,
+            pin_input => \UART:tx_wire\,
+            pad_out => \UART:tx(0)_PAD\,
+            pad_in => \UART:tx(0)_PAD\,
+            in_clock => open,
+            in_clock_en => '1',
+            in_reset => '0',
+            out_clock => open,
+            out_clock_en => '1',
+            out_reset => '0');
+
+    \UART:rx\:logicalport
+        GENERIC MAP(
+            drive_mode => "001",
+            ibuf_enabled => "1",
+            id => "43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/78e33e5d-45ea-4b75-88d5-73274e8a7ce4",
+            init_dr_st => "0",
+            input_buffer_sel => "00",
+            input_clk_en => 0,
+            input_sync => "0",
+            input_sync_mode => "0",
+            intr_mode => "00",
+            invert_in_clock => 0,
+            invert_in_clock_en => 0,
+            invert_in_reset => 0,
+            invert_out_clock => 0,
+            invert_out_clock_en => 0,
+            invert_out_reset => 0,
+            io_voltage => "",
+            layout_mode => "CONTIGUOUS",
+            oe_conn => "0",
+            oe_reset => 0,
+            oe_sync => "0",
+            output_clk_en => 0,
+            output_clock_mode => "0",
+            output_conn => "0",
+            output_mode => "0",
+            output_reset => 0,
+            output_sync => "0",
+            ovt_hyst_trim => "0",
+            ovt_needed => "0",
+            ovt_slew_control => "00",
+            pa_in_clock => -1,
+            pa_in_clock_en => -1,
+            pa_in_reset => -1,
+            pa_out_clock => -1,
+            pa_out_clock_en => -1,
+            pa_out_reset => -1,
+            pin_aliases => "",
+            pin_mode => "I",
+            por_state => 4,
+            port_alias_group => "",
+            port_alias_required => 0,
+            sio_group_cnt => 0,
+            sio_hifreq => "00000000",
+            sio_hyst => "1",
+            sio_ibuf => "00000000",
+            sio_info => "00",
+            sio_obuf => "00000000",
+            sio_refsel => "00000000",
+            sio_vohsel => "00000000",
+            sio_vtrip => "00000000",
+            slew_rate => "0",
+            spanning => 0,
+            sw_only => 0,
+            use_annotation => "0",
+            vtrip => "00",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0)
+        PORT MAP(
+            in_clock_en => open,
+            in_reset => open,
+            out_clock_en => open,
+            out_reset => open);
+
+    \UART:rx(0)\:iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "\UART:rx\",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
+        PORT MAP(
+            pa_out => \\\UART:rx(0)\\__PA\,
+            oe => open,
+            fb => \UART:rx_wire\,
+            pad_in => \UART:rx(0)_PAD\,
+            in_clock => open,
+            in_clock_en => '1',
+            in_reset => '0',
+            out_clock => open,
+            out_clock_en => '1',
+            out_reset => '0');
+
     \PWM_A:cy_m0s8_tcpwm_1\:m0s8tcpwmcell
         GENERIC MAP(
             cy_registers => "")
@@ -607,5 +836,30 @@ BEGIN
             line => Net_450,
             line_compl => Net_461,
             interrupt => Net_457);
+
+    \UART:SCB\:m0s8scbcell
+        GENERIC MAP(
+            cy_registers => "",
+            scb_mode => 2)
+        PORT MAP(
+            clock => \UART:Net_847_ff0\,
+            interrupt => Net_483,
+            uart_rx => \UART:rx_wire\,
+            uart_tx => \UART:tx_wire\,
+            uart_cts => open,
+            uart_rts => \UART:rts_wire\,
+            mosi_m => \UART:mosi_m_wire\,
+            miso_m => open,
+            select_m_3 => \UART:select_m_wire_3\,
+            select_m_2 => \UART:select_m_wire_2\,
+            select_m_1 => \UART:select_m_wire_1\,
+            select_m_0 => \UART:select_m_wire_0\,
+            sclk_m => \UART:sclk_m_wire\,
+            mosi_s => open,
+            miso_s => \UART:miso_s_wire\,
+            select_s => open,
+            sclk_s => open,
+            tr_tx_req => Net_486,
+            tr_rx_req => Net_485);
 
 END __DEFAULT__;

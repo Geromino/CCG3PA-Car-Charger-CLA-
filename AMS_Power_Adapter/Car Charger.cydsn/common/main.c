@@ -327,7 +327,9 @@ void led_timer_cb (
 {
     (void)port;
     (void)id;
-
+    UART_UartPutString("welcome AMS world!!!");
+    UART_UartPutChar(0x0D);
+    UART_UartPutChar(0x0A);
     gpio_set_value (FW_LED_GPIO_PORT_PIN, !(gpio_read_value (FW_LED_GPIO_PORT_PIN)));
     timer_start (0, LED_TIMER_ID, LED_TIMER_PERIOD, led_timer_cb);
 }
@@ -493,6 +495,8 @@ int main()
 
     /* Enable global interrupts */
     CyGlobalIntEnable;
+    
+    UART_Start();
 
 #if RIDGE_SLAVE_ENABLE
     /* Initialize the Alpine-Ridge slave interface. */

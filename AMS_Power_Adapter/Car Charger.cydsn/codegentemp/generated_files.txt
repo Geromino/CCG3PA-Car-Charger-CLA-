@@ -52,6 +52,29 @@
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\TYPE_A_VBUS_EN_PM.c" value="SOURCE_C;CortexM0;;;;TYPE_A_VBUS_EN" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\PDSS_PORTX_REFGEN_CLK.c" value="SOURCE_C;CortexM0;;;;PDSS_PORTX_REFGEN_CLK" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\PDSS_PORTX_REFGEN_CLK.h" value="HEADER;;;;;PDSS_PORTX_REFGEN_CLK" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART.c" value="SOURCE_C;CortexM0;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART.h" value="HEADER;;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_SPI_UART.h" value="HEADER;;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_SPI_UART.c" value="SOURCE_C;CortexM0;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_SPI_UART_INT.c" value="SOURCE_C;CortexM0;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_PM.c" value="SOURCE_C;CortexM0;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_UART.c" value="SOURCE_C;CortexM0;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_BOOT.c" value="SOURCE_C;CortexM0;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_UART_BOOT.c" value="SOURCE_C;CortexM0;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_PINS.h" value="HEADER;;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_SPI_UART_PVT.h" value="HEADER;;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_PVT.h" value="HEADER;;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_BOOT.h" value="HEADER;;;;;UART" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_SCBCLK.c" value="SOURCE_C;CortexM0;;;;UART_SCBCLK" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_tx.c" value="SOURCE_C;CortexM0;;;;UART_tx" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_tx.h" value="HEADER;;;;;UART_tx" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_tx_aliases.h" value="HEADER;;;;;UART_tx" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_tx_PM.c" value="SOURCE_C;CortexM0;;;;UART_tx" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_rx.c" value="SOURCE_C;CortexM0;;;;UART_rx" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_rx.h" value="HEADER;;;;;UART_rx" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_rx_aliases.h" value="HEADER;;;;;UART_rx" />
+  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\UART_rx_PM.c" value="SOURCE_C;CortexM0;;;;UART_rx" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
