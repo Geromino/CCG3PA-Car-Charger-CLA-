@@ -1,6 +1,6 @@
-G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\Car Charger.cyprj|301d5229-3854-4b95-bfed-816f2c4ee3fd
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5e90b698-ad4d-404e-aa46-623d4adf88bb
-C:\Users\lenovo\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|e15156b1-2fec-43e4-96ce-4bb88a9994a9
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|ce8fc154-61d9-475e-b807-0944d3fb9b47
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e7ce6bae-811d-4bf9-a9ab-45b6b833f6cc
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|47600ce5-462e-42ac-8b14-f7e00af57ec7
+G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\Car Charger.cyprj|a4396b1c-2a79-4fe2-8030-40b23ad3bf7a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|7ef75963-b105-4a95-86da-fc755fba1a71
+C:\Users\lenovo\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|5300af06-f6ff-498e-9b4f-c025e6589f0c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c08b00cd-4482-43dc-a6d4-2b0e12eee6c1
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|103c9361-5b7f-4212-9d93-5b2c38d0de70
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|76b9d337-0028-4968-b910-2cd1e06c8889

@@ -1,0 +1,6 @@
+net Net_212
+	term   ":m0s8tcpwmcell_1.line"
+	switch ":m0s8tcpwmcell_1.line==>:ioport2:hsiom_out3.fixed_ACT_1"
+	switch ":ioport2:hsiom_out3.hsiom3_out==>:ioport2:pin3.pin_input"
+	term   ":ioport2:pin3.pin_input"
+end Net_212

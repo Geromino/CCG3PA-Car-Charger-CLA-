@@ -26,7 +26,6 @@
 <v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Directives</v>
 <v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Flash Security</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_mode_hw.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_modes_mngr.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\cy_alt_mode.h</v>
@@ -42,14 +41,12 @@
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\type_a.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\vbus_ctrl.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\vdm.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\dpm.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\dpm_intern.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\pd.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\pd_policy_engine.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\pd_protocol.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\typec_manager.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\hal_ccgx.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\hpd.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\pdss_hal.h</v>
@@ -73,7 +70,6 @@
 <v>AMS_Power_Adapter\Car Charger\Header Files\system\timer.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\system\utils.h</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files</v>
-<v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\alt_mode_hw.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\alt_modes_mngr.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode\cy_alt_mode.c</v>
@@ -89,7 +85,6 @@
 <v>AMS_Power_Adapter\Car Charger\Source Files\app\type_a.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\app\vbus_ctrl.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\app\vdm.c</v>
-<v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal\hal_ccgx.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal\pdss_mx_hal.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\solution</v>
@@ -97,7 +92,6 @@
 <v>AMS_Power_Adapter\Car Charger\Source Files\solution\datamux_ctrl.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\solution\instrumentation.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\solution\main.c</v>
-<v>AMS_Power_Adapter\Car Charger\Source Files\system</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\system\boot.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\system\flash.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\system\gpio.c</v>
@@ -120,11 +114,6 @@
 <v>AMS_Power_Adapter\Car Charger\Car Charger.cydwr\Flash Security</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_mode_hw.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\alt_modes_mngr.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\cy_alt_mode.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\uvdm.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\vdm_task_mngr.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\app.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\battery_charging.h</v>
@@ -136,7 +125,11 @@
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\vbus_ctrl.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\vdm.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\pd_common\dpm.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\alt_modes_config.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\app_version.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\solution\config.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -206,6 +199,8 @@
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A_PM.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A_PM.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART.lst</v>
+<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\swap.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\system.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\timer.lst</v>
@@ -254,7 +249,6 @@
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
 <v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -276,6 +270,7 @@
 <v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\SW_Tx_UART_v1_50.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\TCPWM_P4_v2_10.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -291,16 +286,33 @@
 <v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20</v>
 <v>AMS_Power_Adapter\Car Charger\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>AMS_Power_Adapter\Car Charger\SW_Tx_UART_v1_50.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\TCPWM_P4_v2_10.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
 </CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
 </dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\Car Charger.cydsn\Car Charger.cydwr" />
+<name v=".\Car Charger.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Car Charger.cydsn\common\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1045, 402" SelectedTabbedMdiWindow="524b4417-d5ec-499e-91ec-5655e91838e4"><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\Car Charger.cydwr" Guid="b0d7b704-22a6-4550-8c88-7d5926c09cb0" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\TopDesign\TopDesign.cysch" Guid="5d3d5ed0-e052-4287-8a27-b6a72f3d6f90" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\common\main.c" Guid="524b4417-d5ec-499e-91ec-5655e91838e4" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

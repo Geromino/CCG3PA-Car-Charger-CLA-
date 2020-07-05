@@ -27,7 +27,7 @@
       <Data key="94644833-58fc-4899-9e69-96b972a927ee" value="PWMI_OUT_C" />
       <Data key="c0d54010-b5a1-4f44-b771-49608e482dce" value="BC_SINK_CMP_REF_SEL" />
       <Data key="e249f86d-190f-49a8-9e4b-c0b847120ecf" value="PWMI_OUT_C" />
-      <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="PWM_OUT_C" />
+      <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="TYPE_A_VBUS_EN" />
       <Data key="ff68e508-ef33-4177-ad6b-b8c8e91b65d3" value="PWM_OUT_A" />
     </Group>
   </Group>
@@ -1933,14 +1933,15 @@
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
-        <Data key="Port Format" value="0,1" />
+        <Data key="Port Format" value="1,0" />
       </Group>
     </Group>
     <Group key="ff68e508-ef33-4177-ad6b-b8c8e91b65d3">
       <Group key="0">
-        <Data key="Port Format" value="0,0" />
+        <Data key="Port Format" value="2,3" />
       </Group>
     </Group>
+    <Group key="UnAssigned Pins" />
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />
