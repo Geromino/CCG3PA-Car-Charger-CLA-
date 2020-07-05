@@ -2,7 +2,7 @@
 --	Conversion of Car Charger.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Jul 03 01:36:14 2020
+--	Sun Jul 05 11:24:51 2020
 --
 
 USE cypress.cypress.all;
