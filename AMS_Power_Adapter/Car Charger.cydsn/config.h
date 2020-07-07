@@ -589,8 +589,10 @@
  * Select CCG3 GPIO to be used as Activity Indication. This should be set to a
  * valid value if APP_FW_LED_ENABLE is non-zero.
  */
-#define FW_LED_GPIO_PORT_PIN                        (GPIO_PORT_2_PIN_3)
-#define APP_DEBUG_DEVICE_TO_CHARGE_REQUEST          (0u)
+#define FW_LED_GPIO_PORT_PIN                            (GPIO_PORT_2_PIN_3)
+#define APP_DEBUG_DEVICE_TO_CHARGE_REQUEST              (0u)
+#define APP_DEBUG_DPM_DEVICE_TOBECHARGED                (0u)
+#define APP_DEBUG_RTDP_DEVICE_TOBECHARGED               (0u)
 
 /*
  * Timer ID allocation for various solution soft timers.
