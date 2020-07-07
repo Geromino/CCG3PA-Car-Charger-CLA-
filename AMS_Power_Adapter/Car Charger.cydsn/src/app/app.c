@@ -1655,14 +1655,21 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
 
         case APP_EVT_PD_CONTRACT_NEGOTIATION_COMPLETE:
             contract_status = (pd_contract_info_t*)dat;
+         
             
-#if APP_DEBUG_DEVICE_TO_CHARGE_REQUEST
+#if APP_DEBUG_SDK_INTERFACE_DPM_VOLTAGE_CURRENT
     
     		if(dpm_stat -> contract_exist == true)
 			{
 				dpm_voltage = dpm_stat->contract.max_volt / 100;
 				dpm_current = dpm_stat->contract.cur_pwr / 5;
 			}
+            
+            SW_Tx_UART_PutString("DPM Volt ");
+            SW_Tx_UART_PutHexInt(dpm_voltage);
+            
+            SW_Tx_UART_PutString("\tDPM Curr ");
+            SW_Tx_UART_PutHexInt(dpm_current);
 #endif
 
             /* Set VDM version based on active PD revision. */
