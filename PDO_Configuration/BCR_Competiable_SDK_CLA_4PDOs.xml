@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://cypress.com/xsd/ezpdconfiguration">
+  <device_info
+    family="CCG3PA"
+    part_number="CYPD3171-24LQXQ"
+    device_type="POWER ADAPTER" />
+  <table_info
+    type="0"
+    sub_type="4"
+    major_version="2"
+    minor_version="0"
+    patch_version="1" />
+  <dev_param
+    flashing_vid="0x04B4"
+    flashing_mode="1"
+    manufacturer_info="[0xB4, 0x04, 0x64, 0xF6, 0x43, 0x79, 0x70, 0x72, 0x65, 0x73, 0x73]"
+    dead_btr_event_mask="0x00000000" />
+  <port
+    index="0">
+    <vdm_info
+      discover_id_response="[[0xFF00A041, 0x298004B4, 0x00000000, 0xF6640000, 0x0000001B]]"
+      discover_svid_response="[]"
+      discover_mode_response="[]"
+      source_cap_extended="[0xB4, 0x04, 0x64, 0xF6, 0x00, 0x00, 0x00, 0x00, 0x01, 0x01, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x1B]" />
+    <emca_info
+      ra_timeout="0" />
+    <port_info
+      port_role="1"
+      dflt_port_role="1"
+      cur_level="2"
+      is_src_bat="0"
+      is_snk_bat="0"
+      sink_usb_suspend="0"
+      sink_usb_comm="0"
+      rp_rd_toggle="0"
+      default_src_pdo_mask="0x9F"
+      default_sink_pdo_mask="0x00"
+      rp_supported="0x07"
+      usbpd_supported="1"
+      try_src_en="0"
+      cable_disc_en="0"
+      dead_bat_en="0"
+      err_recov_en="1"
+      port_disable="0"
+      frs_enable="0"
+      vconn_retain="0"
+      dr_swap_response="0"
+      pr_swap_response="3"
+      vconn_swap_response="1"
+      src_pdo="[0x0301912C, 0x0002D12C, 0x1003C05A, 0x1004B05A, 0x1006405A]"
+      sink_pdo="[]"
+      sink_min_max_current="[]" />
+    <dp_info
+      dp_mode_supported="0x00"
+      dp_mux_control="0"
+      dp_mode_trigger="0"
+      dp_oper="0"
+      dp_pref_mode="0" />
+    <power_protection>
+      <vbus_ovp
+        enable="1"
+        threshold="20"
+        debounce="10"
+        retry_cnt="2" />
+      <vbus_ocp
+        enable="1"
+        threshold="20"
+        debounce="10"
+        retry_cnt="2"
+        threshold2="0"
+        debounce2="0"
+        sense_res="0"
+        cs_res="0" />
+      <vbus_uvp
+        enable="1"
+        threshold="70"
+        debounce="10"
+        retry_cnt="2" />
+      <vbus_scp
+        enable="0"
+        threshold="0"
+        debounce="1"
+        retry_cnt="1" />
+      <otp
+        enable="0"
+        therm_1_enable="0"
+        therm_type="0"
+        cutoff_val="0"
+        restart_val="0"
+        debounce="0"
+        poll_interval="0"
+        therm_type_1="0"
+        cutoff_val_1="0"
+        restart_val_1="0" />
+    </power_protection>
+    <power_cfg
+      fb_type="2"
+      vbus_min_volt="3600"
+      vbus_max_volt="20000"
+      vbus_dflt_volt="5000"
+      fb_ctrl_r1="200000"
+      fb_ctrl_r2="61000"
+      cable_resistance="0"
+      vbus_offset_volt="0"
+      cur_sense_res="50"
+      src_gate_drv_str="0"
+      vbtr_up_step_width="0"
+      vbtr_down_step_width="0"
+      prim_sec_turns_ratio="0"
+      sr_enable="0"
+      sr_rise_time="0"
+      sr_fall_time="0"
+      sr_async_thresh="0"
+      sr_supply_doubler="0"
+      pwm_mode="0"
+      pwm_min_freq="0"
+      pwm_max_freq="0"
+      pwm_fix_freq="0"
+      max_pwm_duty_cycle="0" />
+    <chg_cfg
+      src_sel="0x1D"
+      snk_sel="0x00"
+      apple_src_id="0"
+      qc_src_type="2"
+      afc_src_caps="[0x0F, 0x49, 0x72]" />
+    <type_a_port
+      enable="1">
+      <power_cfg
+        fb_type="1"
+        vbus_min_volt="3300"
+        vbus_max_volt="20000"
+        vbus_dflt_volt="5000"
+        fb_ctrl_r1="0"
+        fb_ctrl_r2="0" />
+      <chg_cfg
+        src_sel="0x0D"
+        snk_sel="0x00"
+        apple_src_id="0"
+        qc_src_type="2"
+        afc_src_caps="[0x0F, 0x49, 0x72]" />
+    </type_a_port>
+  </port>
+  <user_parameter
+    parameter_1="0x00000000"
+    parameter_2="0x00000000"
+    parameter_3="0x00000000"
+    parameter_4="0x00000000"
+    parameter_5="0x00000000"
+    parameter_6="0x00000000"
+    parameter_7="0x00000000"
+    parameter_8="0x00000000" />
+</config_table>
