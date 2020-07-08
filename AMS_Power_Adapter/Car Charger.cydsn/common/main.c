@@ -65,6 +65,8 @@
 #include <ridge_slave.h>
 #endif /* RIDGE_SLAVE_ENABLE */
 
+uint8_t connect_cable_debug=0;
+
 #if (LEGACY_APPLE_SRC_SLN_TERM_ENABLE)
 #include <chgb_hal.h>
 #include <battery_charging.h>
@@ -634,7 +636,12 @@ int main()
             /* Handle any pending HPI commands. */
             hpi_task ();
 #endif /* CCG_HPI_ENABLE */
-
+if (connect_cable_debug)
+{
+         connect_cable_debug=0;
+         SW_Tx_UART_PutString("Cable connected  ");
+            SW_Tx_UART_PutCRLF();
+}
             /* Perform tasks associated with instrumentation. */
             instrumentation_task();          
         }

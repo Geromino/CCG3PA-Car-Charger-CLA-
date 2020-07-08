@@ -593,7 +593,7 @@
 #define APP_DEBUG_DPM_DEVICE_TOBECHARGED                (0u)
 #define APP_DEBUG_RTDP_DEVICE_TOBECHARGED               (0u)
 #define APP_DEBUG_SDK_INTERFACE_DPM_VOLTAGE_CURRENT     (1u)
-#define APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT       (0u)
+#define APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT       (1u)
 
 /*
  * Timer ID allocation for various solution soft timers.

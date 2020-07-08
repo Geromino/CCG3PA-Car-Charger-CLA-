@@ -31,6 +31,7 @@
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\cy_alt_mode.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\uvdm.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode\vdm_task_mngr.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\app.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\battery_charging.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app\billboard.h</v>
@@ -49,7 +50,6 @@
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\hal_ccgx.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\hpd.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal\pdss_hal.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\solution\alt_modes_config.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\solution\app_version.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\solution\config.h</v>
@@ -85,6 +85,7 @@
 <v>AMS_Power_Adapter\Car Charger\Source Files\app\vdm.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal\hal_ccgx.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\pd_hal\pdss_mx_hal.c</v>
+<v>AMS_Power_Adapter\Car Charger\Source Files\solution</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\solution\config.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\solution\datamux_ctrl.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\solution\instrumentation.c</v>
@@ -110,22 +111,22 @@
 <v>AMS_Power_Adapter\Car Charger\Header Files</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\alt_mode</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\app</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\app.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\battery_charging.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\billboard.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\pdo.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\psource.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\swap.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\type_a.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\vbus_ctrl.h</v>
+<v>AMS_Power_Adapter\Car Charger\Header Files\app\vdm.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_common</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\pd_hal</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\solution</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution\alt_modes_config.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution\app_version.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution\config.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution\cyapicallbacks.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution\flash_config.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution\instrumentation.h</v>
-<v>AMS_Power_Adapter\Car Charger\Header Files\solution\stack_params.h</v>
 <v>AMS_Power_Adapter\Car Charger\Header Files\system</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\alt_mode</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\app</v>
-<v>AMS_Power_Adapter\Car Charger\Source Files\app\app.c</v>
-<v>AMS_Power_Adapter\Car Charger\Source Files\app\battery_charging.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">

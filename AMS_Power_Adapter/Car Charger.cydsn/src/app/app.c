@@ -1353,9 +1353,12 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
             break;
 
         case APP_EVT_CONNECT:
+            
+
             app_status[port].vdm_prcs_failed = false;
             app_status[port].cbl_disc_id_finished = false;
             app_status[port].disc_cbl_pending = false;
+
 
 #if ICL_RVP_HW
             /* Debug Accessories don't raise the TYPEC_ATTACH event. So configuring the MUX here */
@@ -1398,6 +1401,13 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
 #if (ROLE_PREFERENCE_ENABLE)
             app_connect_change_handler (port);
 #endif /* (ROLE_PREFERENCE_ENABLE) */
+
+#if APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT
+  
+            connect_cable_debug=1;
+       
+    
+#endif
             break;
 
         case APP_EVT_HARD_RESET_COMPLETE:
@@ -1428,6 +1438,12 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
 #if CCG_REV3_HANDLE_BAD_SINK
             if ((evt == APP_EVT_DISCONNECT) || (evt == APP_EVT_VBUS_PORT_DISABLE))
             {
+#if APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT
+  
+            SW_Tx_UART_PutString("Cable Disconnected  ");
+            SW_Tx_UART_PutCRLF();
+    
+#endif
                 /* Stop bad sink timer and clear bad sink status. */
                 timer_stop(port, APP_BAD_SINK_TIMEOUT_TIMER);
                 gl_bad_sink_timeout_status[port] = false;
@@ -1667,9 +1683,10 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
             
             SW_Tx_UART_PutString("DPM Volt ");
             SW_Tx_UART_PutHexInt(dpm_voltage);
-            
+
             SW_Tx_UART_PutString("\tDPM Curr ");
             SW_Tx_UART_PutHexInt(dpm_current);
+            SW_Tx_UART_PutCRLF();
 #endif
 
             /* Set VDM version based on active PD revision. */
