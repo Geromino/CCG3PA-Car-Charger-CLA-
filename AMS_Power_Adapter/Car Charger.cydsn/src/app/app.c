@@ -1296,7 +1296,7 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
 {
     const app_req_status_t* result;
     const pd_contract_info_t* contract_status;
-    uint16_t dpm_voltage,dpm_current;
+    uint16_t dpm_voltage=0,dpm_current=0;
     bool  skip_soln_cb = false;
     bool  hardreset_cplt = false;
     bool  typec_only = false;
@@ -1405,8 +1405,7 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
 #if APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT
   
             connect_cable_debug=1;
-       
-    
+
 #endif
             break;
 
