@@ -35,6 +35,8 @@
 #include "TYPE_A_VBUS_EN.h"
 #include "TYPE_A_VBUS_EN_aliases.h"
 #include "PDSS_PORTX_REFGEN_CLK.h"
+#include "SW_Tx_UART.h"
+#include "SW_Tx_UART_PVT.h"
 #include "core_cm0_psoc4.h"
 #include "CyFlash.h"
 #include "CyLib.h"
