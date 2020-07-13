@@ -25,27 +25,10 @@
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\BUCK_BOOST_EN_C.h" value="HEADER;;;;;BUCK_BOOST_EN_C" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\BUCK_BOOST_EN_C_aliases.h" value="HEADER;;;;;BUCK_BOOST_EN_C" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\BUCK_BOOST_EN_C_PM.c" value="SOURCE_C;CortexM0;;;;BUCK_BOOST_EN_C" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\BUCK_BOOST_EN_A.c" value="SOURCE_C;CortexM0;;;;BUCK_BOOST_EN_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\BUCK_BOOST_EN_A.h" value="HEADER;;;;;BUCK_BOOST_EN_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\BUCK_BOOST_EN_A_aliases.h" value="HEADER;;;;;BUCK_BOOST_EN_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\BUCK_BOOST_EN_A_PM.c" value="SOURCE_C;CortexM0;;;;BUCK_BOOST_EN_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PWM_A.c" value="SOURCE_C;CortexM0;;;;PWM_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PWM_A.h" value="HEADER;;;;;PWM_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PWM_A_PM.c" value="SOURCE_C;CortexM0;;;;PWM_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM0;;;;Clock_2" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PWM_OUT_A.c" value="SOURCE_C;CortexM0;;;;PWM_OUT_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PWM_OUT_A.h" value="HEADER;;;;;PWM_OUT_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PWM_OUT_A_aliases.h" value="HEADER;;;;;PWM_OUT_A" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PWM_OUT_A_PM.c" value="SOURCE_C;CortexM0;;;;PWM_OUT_A" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PDSS_PORT0_FILT_CLK_SEL.c" value="SOURCE_C;CortexM0;;;;PDSS_PORT0_FILT_CLK_SEL" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PDSS_PORT0_FILT_CLK_SEL.h" value="HEADER;;;;;PDSS_PORT0_FILT_CLK_SEL" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PDSS_PORT0_ISINK_CLK.c" value="SOURCE_C;CortexM0;;;;PDSS_PORT0_ISINK_CLK" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PDSS_PORT0_ISINK_CLK.h" value="HEADER;;;;;PDSS_PORT0_ISINK_CLK" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\TYPE_A_VBUS_EN.c" value="SOURCE_C;CortexM0;;;;TYPE_A_VBUS_EN" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\TYPE_A_VBUS_EN.h" value="HEADER;;;;;TYPE_A_VBUS_EN" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\TYPE_A_VBUS_EN_aliases.h" value="HEADER;;;;;TYPE_A_VBUS_EN" />
-  <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\TYPE_A_VBUS_EN_PM.c" value="SOURCE_C;CortexM0;;;;TYPE_A_VBUS_EN" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PDSS_PORTX_REFGEN_CLK.c" value="SOURCE_C;CortexM0;;;;PDSS_PORTX_REFGEN_CLK" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\PDSS_PORTX_REFGEN_CLK.h" value="HEADER;;;;;PDSS_PORTX_REFGEN_CLK" />
   <file name="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\codegentemp\SW_Tx_UART_AsmGnu.s" value="SOURCE_ASM;CortexM0,CortexM0p,CortexM3,CortexM4,CortexM7;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;SW_Tx_UART" />

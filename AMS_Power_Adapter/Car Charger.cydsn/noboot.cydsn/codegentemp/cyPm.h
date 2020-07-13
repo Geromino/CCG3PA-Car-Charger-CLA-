@@ -1,6 +1,6 @@
 /***************************************************************************//**
 * \file cyPm.h
-* \version 5.60
+* \version 5.90
 *
 * \brief Provides the function definitions for the power management API.
 *
@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2011-2017, Cypress Semiconductor Corporation.  All rights reserved.
+* Copyright 2011-2018, Cypress Semiconductor Corporation.  All rights reserved.
 * You may use this file only in accordance with the license, terms, conditions,
 * disclaimers, and limitations in the end user license agreement accompanying
 * the software package with which this file was provided.
@@ -201,6 +201,11 @@ void CySysPmDeepSleep(void);
     #define CY_PM_PWR_KEY_DELAY_REG_DEFAULT     ((uint32) 248u)
     #define CY_PM_PWR_KEY_DELAY_FREQ_DEFAULT    (48u)
 #endif /* (CY_IP_SRSSV2) */
+
+#if (CY_IP_IMO_TRIMMABLE_BY_WCO)
+    #define CY_PM_WCO_DPLL_WAKEUP_DELAY         (35u)
+    #define CY_PM_WCO_DPLL_LF_LIMIT_TEMP_DRIFT  (4u)
+#endif /* (CY_IP_IMO_TRIMMABLE_BY_WCO) */
 
 #if (CY_PSOC4_4100 || CY_PSOC4_4200 || CY_PSOC4_4000U)
     /* 0 - normal operation, 1 - Flash Accelerator in bypass mode */

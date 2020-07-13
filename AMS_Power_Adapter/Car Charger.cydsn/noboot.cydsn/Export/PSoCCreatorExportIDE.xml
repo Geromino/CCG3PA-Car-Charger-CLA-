@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="noboot" Path="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn" Version="5.60" Type="Normal">
+  <Project Name="noboot" Path="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn" Version="5.90" Type="Normal">
     <CMSIS_SVD_File>noboot.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -165,27 +165,10 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BUCK_BOOST_EN_C.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BUCK_BOOST_EN_C_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BUCK_BOOST_EN_C_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BUCK_BOOST_EN_A.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BUCK_BOOST_EN_A.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BUCK_BOOST_EN_A_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BUCK_BOOST_EN_A_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_A.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_A.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_A_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_OUT_A.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_OUT_A.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_OUT_A_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_OUT_A_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PDSS_PORT0_FILT_CLK_SEL.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PDSS_PORT0_FILT_CLK_SEL.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PDSS_PORT0_ISINK_CLK.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PDSS_PORT0_ISINK_CLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\TYPE_A_VBUS_EN.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\TYPE_A_VBUS_EN.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\TYPE_A_VBUS_EN_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\TYPE_A_VBUS_EN_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PDSS_PORTX_REFGEN_CLK.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PDSS_PORTX_REFGEN_CLK.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC4\cm0gcc.ld</File>
