@@ -329,7 +329,7 @@ void led_timer_cb (uint8_t port,timer_id_t id)
     (void)port;
     (void)id;
     
-    uint16_t Voltage_PDSS=0,Current_PDSS=0;
+   
    
     
  #if APP_DEBUG_DPM_DEVICE_TOBECHARGED
@@ -352,6 +352,8 @@ void led_timer_cb (uint8_t port,timer_id_t id)
    
  #if APP_DEBUG_RTDP_DEVICE_TOBECHARGED  
     
+     uint16_t Voltage_PDSS=0,Current_PDSS=0;
+    
         Voltage_PDSS = pd_hal_measure_vbus(0);
         Current_PDSS = pd_hal_measure_vbus_cur(0);
         
@@ -362,6 +364,8 @@ void led_timer_cb (uint8_t port,timer_id_t id)
         SW_Tx_UART_PutHexInt(Voltage_PDSS);
         SW_Tx_UART_PutCRLF();
 #endif        
+
+
         
     gpio_set_value (FW_LED_GPIO_PORT_PIN, !(gpio_read_value (FW_LED_GPIO_PORT_PIN)));
     timer_start (0, LED_TIMER_ID, LED_TIMER_PERIOD, led_timer_cb);
@@ -636,12 +640,6 @@ int main()
             /* Handle any pending HPI commands. */
             hpi_task ();
 #endif /* CCG_HPI_ENABLE */
-if (connect_cable_debug)
-{
-         connect_cable_debug=0;
-         SW_Tx_UART_PutString("Cable connected  ");
-            SW_Tx_UART_PutCRLF();
-}
             /* Perform tasks associated with instrumentation. */
             instrumentation_task();          
         }
