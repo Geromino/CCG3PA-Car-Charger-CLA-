@@ -50,8 +50,8 @@
 
 #define APP_TYPE_STRING                 (APP_TYPE_POWERADAPTER)
 #define APP_EXT_CIR_NUM                 (0x00)
-#define APP_MAJOR_VERSION               (0x00)
-#define APP_MINOR_VERSION               (0x00)
+#define APP_MAJOR_VERSION               (0x01)
+#define APP_MINOR_VERSION               (0x01)
 
 #define APP_VERSION                                             \
     ((APP_TYPE_STRING) | (APP_EXT_CIR_NUM << 16) |              \

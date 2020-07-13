@@ -2,7 +2,7 @@
 --	Conversion of noboot.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Jul 05 13:37:55 2020
+--	Wed Jul 08 20:05:57 2020
 --
 
 USE cypress.cypress.all;
@@ -23,37 +23,14 @@ SIGNAL tmpIO_0__BUCK_BOOST_EN_C_net_0 : bit;
 TERMINAL tmpSIOVREF__BUCK_BOOST_EN_C_net_0 : bit;
 SIGNAL one : bit;
 SIGNAL tmpINTERRUPT_0__BUCK_BOOST_EN_C_net_0 : bit;
-SIGNAL tmpOE__BUCK_BOOST_EN_A_net_0 : bit;
-SIGNAL tmpFB_0__BUCK_BOOST_EN_A_net_0 : bit;
-SIGNAL tmpIO_0__BUCK_BOOST_EN_A_net_0 : bit;
-TERMINAL tmpSIOVREF__BUCK_BOOST_EN_A_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__BUCK_BOOST_EN_A_net_0 : bit;
-SIGNAL \PWM_A:Net_81\ : bit;
-SIGNAL \PWM_A:Net_75\ : bit;
-SIGNAL \PWM_A:Net_69\ : bit;
-SIGNAL \PWM_A:Net_66\ : bit;
-SIGNAL \PWM_A:Net_82\ : bit;
-SIGNAL \PWM_A:Net_72\ : bit;
-SIGNAL Net_221 : bit;
-SIGNAL Net_220 : bit;
-SIGNAL Net_222 : bit;
-SIGNAL Net_212 : bit;
-SIGNAL Net_223 : bit;
-SIGNAL Net_219 : bit;
-SIGNAL Net_361 : bit;
-SIGNAL tmpOE__PWM_OUT_A_net_0 : bit;
-SIGNAL tmpFB_0__PWM_OUT_A_net_0 : bit;
-SIGNAL tmpIO_0__PWM_OUT_A_net_0 : bit;
-TERMINAL tmpSIOVREF__PWM_OUT_A_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__PWM_OUT_A_net_0 : bit;
 SIGNAL Net_227 : bit;
 SIGNAL Net_231 : bit;
-SIGNAL tmpOE__TYPE_A_VBUS_EN_net_0 : bit;
-SIGNAL tmpFB_0__TYPE_A_VBUS_EN_net_0 : bit;
-SIGNAL tmpIO_0__TYPE_A_VBUS_EN_net_0 : bit;
-TERMINAL tmpSIOVREF__TYPE_A_VBUS_EN_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__TYPE_A_VBUS_EN_net_0 : bit;
 SIGNAL Net_235 : bit;
+SIGNAL \SW_Tx_UART:tmpOE__tx_net_0\ : bit;
+SIGNAL \SW_Tx_UART:tmpFB_0__tx_net_0\ : bit;
+SIGNAL \SW_Tx_UART:tmpIO_0__tx_net_0\ : bit;
+TERMINAL \SW_Tx_UART:tmpSIOVREF__tx_net_0\ : bit;
+SIGNAL \SW_Tx_UART:tmpINTERRUPT_0__tx_net_0\ : bit;
 BEGIN
 
 zero <=  ('0') ;
@@ -170,8 +147,38 @@ BUCK_BOOST_EN_C:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__BUCK_BOOST_EN_C_net_0,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__BUCK_BOOST_EN_C_net_0);
-BUCK_BOOST_EN_A:cy_psoc3_pins_v1_10
-	GENERIC MAP(id=>"94715bb8-4d51-4828-8946-e5baf72ee30d",
+PDSS_PORT0_FILT_CLK_SEL:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"2fd8a5d8-5ff7-4133-b214-28b03770df96",
+		source_clock_id=>"413DE2EF-D9F2-4233-A808-DFAF137FD877",
+		divisor=>0,
+		period=>"2000000000",
+		is_direct=>'0',
+		is_digital=>'0')
+	PORT MAP(clock_out=>Net_227,
+		dig_domain_out=>open);
+PDSS_PORT0_ISINK_CLK:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"43e36e66-bbf0-451a-8b11-a3372e7e9a75",
+		source_clock_id=>"413DE2EF-D9F2-4233-A808-DFAF137FD877",
+		divisor=>0,
+		period=>"10000000000",
+		is_direct=>'0',
+		is_digital=>'0')
+	PORT MAP(clock_out=>Net_231,
+		dig_domain_out=>open);
+PDSS_PORTX_REFGEN_CLK:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"ec990479-645b-494a-a27e-d99f1471ac17",
+		source_clock_id=>"413DE2EF-D9F2-4233-A808-DFAF137FD877",
+		divisor=>0,
+		period=>"1666666666.66667",
+		is_direct=>'0',
+		is_digital=>'0')
+	PORT MAP(clock_out=>Net_235,
+		dig_domain_out=>open);
+\SW_Tx_UART:tx\:cy_psoc3_pins_v1_10
+	GENERIC MAP(id=>"19fb5774-f895-42c2-8e2f-84cb054bffbf/52f31aa9-2f0a-497d-9a1f-1424095e13e6",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
 		init_dr_st=>"1",
@@ -228,10 +235,10 @@ BUCK_BOOST_EN_A:cy_psoc3_pins_v1_10
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__BUCK_BOOST_EN_C_net_0),
 		y=>(zero),
-		fb=>(tmpFB_0__BUCK_BOOST_EN_A_net_0),
+		fb=>(\SW_Tx_UART:tmpFB_0__tx_net_0\),
 		analog=>(open),
-		io=>(tmpIO_0__BUCK_BOOST_EN_A_net_0),
-		siovref=>(tmpSIOVREF__BUCK_BOOST_EN_A_net_0),
+		io=>(\SW_Tx_UART:tmpIO_0__tx_net_0\),
+		siovref=>(\SW_Tx_UART:tmpSIOVREF__tx_net_0\),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__BUCK_BOOST_EN_C_net_0,
@@ -239,200 +246,6 @@ BUCK_BOOST_EN_A:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__BUCK_BOOST_EN_C_net_0,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__BUCK_BOOST_EN_A_net_0);
-\PWM_A:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
-	GENERIC MAP(cy_registers=>"")
-	PORT MAP(clock=>Net_361,
-		capture=>zero,
-		count=>tmpOE__BUCK_BOOST_EN_C_net_0,
-		reload=>zero,
-		stop=>zero,
-		start=>zero,
-		underflow=>Net_221,
-		overflow=>Net_220,
-		compare_match=>Net_222,
-		line_out=>Net_212,
-		line_out_compl=>Net_223,
-		interrupt=>Net_219);
-Clock_2:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"843b24ca-b560-453f-9440-e17a0e6f4ac5",
-		source_clock_id=>"",
-		divisor=>0,
-		period=>"41666666.6666667",
-		is_direct=>'0',
-		is_digital=>'0')
-	PORT MAP(clock_out=>Net_361,
-		dig_domain_out=>open);
-PWM_OUT_A:cy_psoc3_pins_v1_10
-	GENERIC MAP(id=>"ff68e508-ef33-4177-ad6b-b8c8e91b65d3",
-		drive_mode=>"000",
-		ibuf_enabled=>"1",
-		init_dr_st=>"1",
-		input_sync=>"0",
-		input_clk_en=>'0',
-		input_sync_mode=>"0",
-		intr_mode=>"00",
-		invert_in_clock=>'0',
-		invert_in_clock_en=>'0',
-		invert_in_reset=>'0',
-		invert_out_clock=>'0',
-		invert_out_clock_en=>'0',
-		invert_out_reset=>'0',
-		io_voltage=>"",
-		layout_mode=>"CONTIGUOUS",
-		output_conn=>"1",
-		output_sync=>"0",
-		output_clk_en=>'0',
-		output_mode=>"0",
-		output_reset=>'0',
-		output_clock_mode=>"0",
-		oe_sync=>"0",
-		oe_conn=>"0",
-		oe_reset=>'0',
-		pin_aliases=>"",
-		pin_mode=>"O",
-		por_state=>4,
-		sio_group_cnt=>0,
-		sio_hifreq=>"00000000",
-		sio_hyst=>"1",
-		sio_ibuf=>"00000000",
-		sio_info=>"00",
-		sio_obuf=>"00000000",
-		sio_refsel=>"00000000",
-		sio_vtrip=>"00000000",
-		sio_vohsel=>"00000000",
-		slew_rate=>"0",
-		spanning=>'0',
-		sw_only=>'0',
-		vtrip=>"10",
-		width=>1,
-		port_alias_required=>'0',
-		port_alias_group=>"",
-		use_annotation=>"0",
-		pa_in_clock=>-1,
-		pa_in_clock_en=>-1,
-		pa_in_reset=>-1,
-		pa_out_clock=>-1,
-		pa_out_clock_en=>-1,
-		pa_out_reset=>-1,
-		ovt_needed=>"0",
-		ovt_slew_control=>"00",
-		ovt_hyst_trim=>"0",
-		input_buffer_sel=>"00")
-	PORT MAP(oe=>(tmpOE__BUCK_BOOST_EN_C_net_0),
-		y=>Net_212,
-		fb=>(tmpFB_0__PWM_OUT_A_net_0),
-		analog=>(open),
-		io=>(tmpIO_0__PWM_OUT_A_net_0),
-		siovref=>(tmpSIOVREF__PWM_OUT_A_net_0),
-		annotation=>(open),
-		in_clock=>zero,
-		in_clock_en=>tmpOE__BUCK_BOOST_EN_C_net_0,
-		in_reset=>zero,
-		out_clock=>zero,
-		out_clock_en=>tmpOE__BUCK_BOOST_EN_C_net_0,
-		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__PWM_OUT_A_net_0);
-PDSS_PORT0_FILT_CLK_SEL:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"2fd8a5d8-5ff7-4133-b214-28b03770df96",
-		source_clock_id=>"413DE2EF-D9F2-4233-A808-DFAF137FD877",
-		divisor=>0,
-		period=>"2000000000",
-		is_direct=>'0',
-		is_digital=>'0')
-	PORT MAP(clock_out=>Net_227,
-		dig_domain_out=>open);
-PDSS_PORT0_ISINK_CLK:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"43e36e66-bbf0-451a-8b11-a3372e7e9a75",
-		source_clock_id=>"413DE2EF-D9F2-4233-A808-DFAF137FD877",
-		divisor=>0,
-		period=>"10000000000",
-		is_direct=>'0',
-		is_digital=>'0')
-	PORT MAP(clock_out=>Net_231,
-		dig_domain_out=>open);
-TYPE_A_VBUS_EN:cy_psoc3_pins_v1_10
-	GENERIC MAP(id=>"e851a3b9-efb8-48be-bbb8-b303b216c393",
-		drive_mode=>"000",
-		ibuf_enabled=>"1",
-		init_dr_st=>"1",
-		input_sync=>"0",
-		input_clk_en=>'0',
-		input_sync_mode=>"0",
-		intr_mode=>"00",
-		invert_in_clock=>'0',
-		invert_in_clock_en=>'0',
-		invert_in_reset=>'0',
-		invert_out_clock=>'0',
-		invert_out_clock_en=>'0',
-		invert_out_reset=>'0',
-		io_voltage=>"",
-		layout_mode=>"CONTIGUOUS",
-		output_conn=>"0",
-		output_sync=>"0",
-		output_clk_en=>'0',
-		output_mode=>"0",
-		output_reset=>'0',
-		output_clock_mode=>"0",
-		oe_sync=>"0",
-		oe_conn=>"0",
-		oe_reset=>'0',
-		pin_aliases=>"",
-		pin_mode=>"O",
-		por_state=>4,
-		sio_group_cnt=>0,
-		sio_hifreq=>"00000000",
-		sio_hyst=>"1",
-		sio_ibuf=>"00000000",
-		sio_info=>"00",
-		sio_obuf=>"00000000",
-		sio_refsel=>"00000000",
-		sio_vtrip=>"00000000",
-		sio_vohsel=>"00000000",
-		slew_rate=>"0",
-		spanning=>'0',
-		sw_only=>'0',
-		vtrip=>"10",
-		width=>1,
-		port_alias_required=>'0',
-		port_alias_group=>"",
-		use_annotation=>"0",
-		pa_in_clock=>-1,
-		pa_in_clock_en=>-1,
-		pa_in_reset=>-1,
-		pa_out_clock=>-1,
-		pa_out_clock_en=>-1,
-		pa_out_reset=>-1,
-		ovt_needed=>"0",
-		ovt_slew_control=>"00",
-		ovt_hyst_trim=>"0",
-		input_buffer_sel=>"00")
-	PORT MAP(oe=>(tmpOE__BUCK_BOOST_EN_C_net_0),
-		y=>(zero),
-		fb=>(tmpFB_0__TYPE_A_VBUS_EN_net_0),
-		analog=>(open),
-		io=>(tmpIO_0__TYPE_A_VBUS_EN_net_0),
-		siovref=>(tmpSIOVREF__TYPE_A_VBUS_EN_net_0),
-		annotation=>(open),
-		in_clock=>zero,
-		in_clock_en=>tmpOE__BUCK_BOOST_EN_C_net_0,
-		in_reset=>zero,
-		out_clock=>zero,
-		out_clock_en=>tmpOE__BUCK_BOOST_EN_C_net_0,
-		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__TYPE_A_VBUS_EN_net_0);
-PDSS_PORTX_REFGEN_CLK:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"ec990479-645b-494a-a27e-d99f1471ac17",
-		source_clock_id=>"413DE2EF-D9F2-4233-A808-DFAF137FD877",
-		divisor=>0,
-		period=>"1666666666.66667",
-		is_direct=>'0',
-		is_digital=>'0')
-	PORT MAP(clock_out=>Net_235,
-		dig_domain_out=>open);
+		interrupt=>\SW_Tx_UART:tmpINTERRUPT_0__tx_net_0\);
 
 END R_T_L;

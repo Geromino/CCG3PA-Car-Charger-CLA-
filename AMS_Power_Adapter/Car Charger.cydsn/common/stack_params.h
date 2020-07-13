@@ -83,7 +83,7 @@
 #if (VCONN_SUPPORT_ENABLE)
 #define CCG_TYPE_A_PORT_ENABLE                      (0u)
 #else
-#define CCG_TYPE_A_PORT_ENABLE                      (1u)
+#define CCG_TYPE_A_PORT_ENABLE                      (0u)
 #endif
 
 #if CCG_TYPE_A_PORT_ENABLE

@@ -2,10 +2,10 @@
 <DesignWideResources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cydwr">
   <Group key="Component">
     <Group key="v1">
-      <Data key="cy_boot" value="cy_boot_v5_60" />
+      <Data key="cy_boot" value="cy_boot_v5_90" />
       <Data key="cy_lfclk" value="cy_lfclk_v1_20" />
-      <Data key="Em_EEPROM_Dynamic" value="Em_EEPROM_Dynamic_v2_0" />
-      <Data key="LIN_Dynamic" value="LIN_Dynamic_v4_0" />
+      <Data key="Em_EEPROM_Dynamic" value="Em_EEPROM_Dynamic_v2_20" />
+      <Data key="LIN_Dynamic" value="LIN_Dynamic_v5_0" />
     </Group>
   </Group>
   <Data key="DataVersionKey" value="2" />
@@ -21,6 +21,7 @@
     </Group>
     <Group key="Pin">
       <Data key="6a3a2a1b-e8f4-4a8a-90b3-dd70832202f8" value="BUCK_BOOST_EN_C" />
+      <Data key="19fb5774-f895-42c2-8e2f-84cb054bffbf/52f31aa9-2f0a-497d-9a1f-1424095e13e6" value="SW_Tx_UART_tx" />
       <Data key="216e9ee8-2a12-4be2-8302-8276323df135" value="DIR_CTRL_C" />
       <Data key="94715bb8-4d51-4828-8946-e5baf72ee30d" value="BUCK_BOOST_EN_A" />
       <Data key="366729d0-4fc1-4516-88f8-50b132770220" value="BC_SRC_SINK_SEL" />
@@ -1901,6 +1902,11 @@
         <Data key="Port Format" value="1,1" />
       </Group>
     </Group>
+    <Group key="19fb5774-f895-42c2-8e2f-84cb054bffbf/52f31aa9-2f0a-497d-9a1f-1424095e13e6">
+      <Group key="0">
+        <Data key="Port Format" value="1,2" />
+      </Group>
+    </Group>
     <Group key="216e9ee8-2a12-4be2-8302-8276323df135">
       <Group key="0">
         <Data key="Port Format" value="2,3" />
@@ -1950,7 +1956,7 @@
     <Data key="CYDEV_CONFIG_UNUSED_IO" value="Disallowed" />
     <Data key="CYDEV_CONFIGURATION_MODE" value="COMPRESSED" />
     <Data key="CYDEV_DEBUG_PROTECT" value="OPEN" />
-    <Data key="CYDEV_DEBUGGING_DPS" value="Disable" />
+    <Data key="CYDEV_DEBUGGING_DPS" value="SWD" />
     <Data key="CYDEV_HEAP_SIZE" value="0x80" />
     <Data key="CYDEV_STACK_SIZE" value="0x0800" />
     <Data key="CYDEV_USE_BUNDLED_CMSIS" value="True" />

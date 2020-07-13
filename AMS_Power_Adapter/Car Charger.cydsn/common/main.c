@@ -65,6 +65,8 @@
 #include <ridge_slave.h>
 #endif /* RIDGE_SLAVE_ENABLE */
 
+uint8_t connect_cable_debug=0;
+
 #if (LEGACY_APPLE_SRC_SLN_TERM_ENABLE)
 #include <chgb_hal.h>
 #include <battery_charging.h>
@@ -327,27 +329,33 @@ void led_timer_cb (uint8_t port,timer_id_t id)
     (void)port;
     (void)id;
     
-    uint16_t dpm_voltage=0,dpm_current=0,Voltage_PDSS=0,Current_PDSS=0;
+   
+   
     
-    
-    
-      const    dpm_status_t *dpm_stat=dpm_get_info(0);
-    
+ #if APP_DEBUG_DPM_DEVICE_TOBECHARGED
+     const    dpm_status_t *dpm_stat=dpm_get_info(0);
+     uint16_t dpm_voltage=0,dpm_current=0;
        if(dpm_stat -> contract_exist == true)
         {
             dpm_voltage = dpm_stat->contract.max_volt / 100;
             dpm_current = dpm_stat->contract.cur_pwr / 5;
         }
         
-        Voltage_PDSS = pd_hal_measure_vbus(0);
 
-        Current_PDSS = pd_hal_measure_vbus_cur(0);
-    
         SW_Tx_UART_PutString("DPM Volt ");
         SW_Tx_UART_PutHexInt(dpm_voltage);
         
         SW_Tx_UART_PutString("\tDPM Curr ");
         SW_Tx_UART_PutHexInt(dpm_current);
+ #endif
+    
+   
+ #if APP_DEBUG_RTDP_DEVICE_TOBECHARGED  
+    
+     uint16_t Voltage_PDSS=0,Current_PDSS=0;
+    
+        Voltage_PDSS = pd_hal_measure_vbus(0);
+        Current_PDSS = pd_hal_measure_vbus_cur(0);
         
         SW_Tx_UART_PutString("\tCurr_PDSS ");
         SW_Tx_UART_PutHexInt(Current_PDSS);
@@ -355,7 +363,9 @@ void led_timer_cb (uint8_t port,timer_id_t id)
         SW_Tx_UART_PutString("\tVolt_PDSS ");
         SW_Tx_UART_PutHexInt(Voltage_PDSS);
         SW_Tx_UART_PutCRLF();
-        
+#endif        
+
+
         
     gpio_set_value (FW_LED_GPIO_PORT_PIN, !(gpio_read_value (FW_LED_GPIO_PORT_PIN)));
     timer_start (0, LED_TIMER_ID, LED_TIMER_PERIOD, led_timer_cb);
@@ -630,7 +640,6 @@ int main()
             /* Handle any pending HPI commands. */
             hpi_task ();
 #endif /* CCG_HPI_ENABLE */
-
             /* Perform tasks associated with instrumentation. */
             instrumentation_task();          
         }

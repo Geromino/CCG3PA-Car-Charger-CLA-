@@ -3,11 +3,12 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="AMS_Power_Adapter" persistent="AMS_Power_Adapter.cywrk" platform="NOT_USED">
-<current_project name=".\Car Charger.cydsn\Car Charger.cyprj" />
+<current_project name=".\Car Charger.cydsn\noboot.cydsn\noboot.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
 <v>.\Car Charger.cydsn\Car Charger.cyprj</v>
+<v>.\Car Charger.cydsn\noboot.cydsn\noboot.cyprj</v>
 </projects>
 <workspace_id v="dbc94dc7-ffcc-4a55-bb55-e3a86fa90ea8" />
 <WriteAppVersionLastSavedWith v="4.3.0.1445" />
