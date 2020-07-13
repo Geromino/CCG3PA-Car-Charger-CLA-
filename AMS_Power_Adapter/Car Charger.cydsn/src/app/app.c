@@ -1328,6 +1328,8 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
             break;
 
         case APP_EVT_TYPEC_ATTACH:
+            
+
 #if CCG_REV3_HANDLE_BAD_SINK
             /* Start bad sink timer */
             timer_stop(port, APP_BAD_SINK_TIMEOUT_TIMER);
@@ -1350,6 +1352,13 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
                 fault_handler_clear_counts (port);
             }
             gl_app_previous_polarity[port] = dpm_stat->polarity;
+            
+            #if APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT
+  
+            SW_Tx_UART_PutString("Cable connected  ");
+            SW_Tx_UART_PutCRLF();
+    
+#endif
             break;
 
         case APP_EVT_CONNECT:
@@ -1402,10 +1411,9 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
             app_connect_change_handler (port);
 #endif /* (ROLE_PREFERENCE_ENABLE) */
 
-#if APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT
-  
-            connect_cable_debug=1;
-
+#if APP_DEBUG_SDK_INTERFACE_DETECTION_CONNECT  
+    
+          //  connect_cable_debug=1;
 #endif
             break;
 
@@ -1678,14 +1686,16 @@ void app_event_handler(uint8_t port, app_evt_t evt, const void* dat)
 			{
 				dpm_voltage = dpm_stat->contract.max_volt / 100;
 				dpm_current = dpm_stat->contract.cur_pwr / 5;
-			}
-            
-            SW_Tx_UART_PutString("DPM Volt ");
-            SW_Tx_UART_PutHexInt(dpm_voltage);
+                
+                            
+                SW_Tx_UART_PutString("DPM Volt ");
+                SW_Tx_UART_PutHexInt(dpm_voltage);
 
-            SW_Tx_UART_PutString("\tDPM Curr ");
-            SW_Tx_UART_PutHexInt(dpm_current);
-            SW_Tx_UART_PutCRLF();
+                SW_Tx_UART_PutString("\tDPM Curr ");
+                SW_Tx_UART_PutHexInt(dpm_current);
+                SW_Tx_UART_PutCRLF();
+			}
+
 #endif
 
             /* Set VDM version based on active PD revision. */
