@@ -95,6 +95,7 @@
 <v>AMS_Power_Adapter\Car Charger\Source Files\system\system.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\system\timer.c</v>
 <v>AMS_Power_Adapter\Car Charger\Source Files\system\utils.c</v>
+<v>AMS_Power_Adapter\noboot</v>
 <v>AMS_Power_Adapter\noboot\TopDesign</v>
 <v>AMS_Power_Adapter\noboot\noboot.cydwr</v>
 <v>AMS_Power_Adapter\noboot\noboot.cydwr\Pins</v>
@@ -202,72 +203,6 @@
 <ExpandedNodeIds>
 <v>AMS_Power_Adapter</v>
 <v>AMS_Power_Adapter\Car Charger</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\alt_mode_hw.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\alt_modes_mngr.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\app.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\battery_charging.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\boot.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Bootloadable_1.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\config.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_alt_mode.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cybootloader.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\datamux_ctrl.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\fault_handlers.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\flash.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\gpio.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\hal_ccgx.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\instrumentation.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\pdo.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\pdss_mx_hal.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_BCH_CLK.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_FILT_CLK_SEL.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_ISINK_CLK.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_RX_CLK.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_SAR_CLK.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_TX_CLK.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORTX_REFGEN_CLK.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\psource.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\swap.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\system.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\timer.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\type_a.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN_PM.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\utils.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\uvdm.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\vbus_ctrl.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\vdm.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Listing Files\vdm_task_mngr.lst</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.cyacd</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.elf</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.hex</v>
-<v>AMS_Power_Adapter\Car Charger\CortexM0\ARM_GCC_541\Debug\Car Charger.map</v>
 <v>AMS_Power_Adapter\Car Charger\Car Charger.gpdsc</v>
 <v>AMS_Power_Adapter\Car Charger\Car Charger.rpt</v>
 <v>AMS_Power_Adapter\Car Charger\Car Charger_timing.html</v>
@@ -281,11 +216,8 @@
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\app.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\battery_charging.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\boot.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_A_PM.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\BUCK_BOOST_EN_C_PM.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\config.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_alt_mode.lst</v>
@@ -315,16 +247,12 @@
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORT0_TX_CLK.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\PDSS_PORTX_REFGEN_CLK.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\psource.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_A_PM.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_OUT_A_PM.lst</v>
+<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART.lst</v>
+<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\swap.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\system.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\timer.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\type_a.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN.lst</v>
-<v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\TYPE_A_VBUS_EN_PM.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\utils.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\uvdm.lst</v>
 <v>AMS_Power_Adapter\noboot\CortexM0\ARM_GCC_541\Debug\Listing Files\vbus_ctrl.lst</v>
@@ -351,7 +279,7 @@
 <v>AMS_Power_Adapter\Car Charger\PSoC 4 Architecture TRM</v>
 <v>AMS_Power_Adapter\Car Charger\CCG3PA Family Datasheet</v>
 <v>AMS_Power_Adapter\Car Charger\System Reference Guides</v>
-<v>AMS_Power_Adapter\Car Charger\System Reference Guides\cy_boot_v5_90</v>
+<v>AMS_Power_Adapter\Car Charger\System Reference Guides\cy_boot_v5_80</v>
 <v>AMS_Power_Adapter\Car Charger\System Reference Guides\cy_lfclk_v1_20</v>
 <v>AMS_Power_Adapter\Car Charger\Bootloadable_v1_60.pdf</v>
 <v>AMS_Power_Adapter\Car Charger\cy_clock_v2_20</v>
@@ -364,7 +292,7 @@
 <v>AMS_Power_Adapter\noboot\PSoC 4 Architecture TRM</v>
 <v>AMS_Power_Adapter\noboot\CCG3PA Family Datasheet</v>
 <v>AMS_Power_Adapter\noboot\System Reference Guides</v>
-<v>AMS_Power_Adapter\noboot\System Reference Guides\cy_boot_v5_90</v>
+<v>AMS_Power_Adapter\noboot\System Reference Guides\cy_boot_v5_80</v>
 <v>AMS_Power_Adapter\noboot\System Reference Guides\cy_lfclk_v1_20</v>
 <v>AMS_Power_Adapter\noboot\cy_clock_v2_20</v>
 <v>AMS_Power_Adapter\noboot\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
