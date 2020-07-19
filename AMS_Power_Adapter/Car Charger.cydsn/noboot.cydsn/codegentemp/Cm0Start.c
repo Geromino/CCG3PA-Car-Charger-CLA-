@@ -1,6 +1,6 @@
 /***************************************************************************//**
 * \file Cm0Start.c
-* \version 5.90
+* \version 5.80
 *
 * \brief Startup code for the ARM CM0.
 *

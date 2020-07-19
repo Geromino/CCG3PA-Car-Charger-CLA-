@@ -1,6 +1,6 @@
 -- Project:   noboot
--- Generated: 07/08/2020 20:05:58
--- PSoC Creator  4.3
+-- Generated: 07/19/2020 12:42:29
+-- PSoC Creator  4.2
 
 ENTITY noboot IS
     PORT(

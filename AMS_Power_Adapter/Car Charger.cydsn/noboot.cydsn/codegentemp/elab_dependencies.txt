@@ -1,91 +1,91 @@
-G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\TopDesign\TopDesign.cysch
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cyprimitive
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cysym
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.pdf
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cystate
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\version.cypatch
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\PSoC4\API\clk.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\PSoC4\API\clk.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\Custom\custom.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cysym
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.pdf
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cystate
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cyprimitive
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\version.cypatch
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\custom.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyenums.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinsdata.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinpicture.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinutils.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\Resource1.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.Designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\Resource1.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.resx
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\aliases.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\pins_PM.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.cysym
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.cysch
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.pdf
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.cystate
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\version.cypatch
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_AsmGnu.s
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_AsmRv.s
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_PVT.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_AsmIar.s
-G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\noboot.cydwr
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cm0gcc.ld
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\Cm0RealView.scat
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\Cm0Start.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0_psoc4.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyBootAsmRv.s
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyFlash.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyFlash.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyLib.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyLib.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cyPm.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cyPm.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cytypes.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cyutils.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cypins.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cmFunc.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cmInstr.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\Cm0Iar.icf
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyBootAsmIar.s
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cmsis_armcc.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cmsis_gcc.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0plus.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0plus_psoc4.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cmsis_compiler.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyBootAsmGnu.s
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_lfclk_v1_20\PSoC4\API\CyLFClk.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_lfclk_v1_20\PSoC4\API\CyLFClk.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Em_EEPROM_Dynamic_v2_20\API\cy_em_eeprom.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Em_EEPROM_Dynamic_v2_20\API\cy_em_eeprom.h
+G:\Projects\TesT_CLONE_Support_Cypress\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\TopDesign\TopDesign.cysch
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cyprimitive
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cysym
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.pdf
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cystate
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\version.cypatch
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\PSoC4\API\clk.c
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\PSoC4\API\clk.h
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\Custom\custom.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cysym
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.pdf
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cystate
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cyprimitive
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\version.cypatch
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\custom.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyenums.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinsdata.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinpicture.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinutils.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\Resource1.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.Designer.cs
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\Resource1.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.resx
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.c
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.h
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\aliases.h
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC4\API\pins_PM.c
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.cysym
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.cysch
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.pdf
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\SW_Tx_UART_v1_50.cystate
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\version.cypatch
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_AsmGnu.s
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_AsmRv.s
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART.c
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART.h
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_PVT.h
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SW_Tx_UART_v1_50\PSoC4\API\SW_Tx_UART_AsmIar.s
+G:\Projects\TesT_CLONE_Support_Cypress\AMS_Power_Adapter\Car Charger.cydsn\noboot.cydsn\noboot.cydwr
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Em_EEPROM_Dynamic_v2_20\API\cy_em_eeprom.c
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Em_EEPROM_Dynamic_v2_20\API\cy_em_eeprom.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cm0gcc.ld
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\Cm0RealView.scat
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\Cm0Start.c
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\core_cm0.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\core_cm0_psoc4.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\CyBootAsmRv.s
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\CyFlash.c
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\CyFlash.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\CyLib.c
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\CyLib.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cyPm.c
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cyPm.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cytypes.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cyutils.c
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cypins.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\core_cmFunc.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\core_cmInstr.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\Cm0Iar.icf
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\CyBootAsmIar.s
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cmsis_armcc.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cmsis_gcc.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\core_cm0plus.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\core_cm0plus_psoc4.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\cmsis_compiler.h
+C:\Users\lenovo\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\cy_boot_v5_80\PSoC4\API\CyBootAsmGnu.s
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_lfclk_v1_20\PSoC4\API\CyLFClk.c
+C:\Program Files (x86)\Cypress_4.2\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_lfclk_v1_20\PSoC4\API\CyLFClk.h

@@ -1,6 +1,6 @@
 /***************************************************************************//**
 * \file cyPm.c
-* \version 5.90
+* \version 5.80
 *
 * \brief Provides an API for the power management.
 *

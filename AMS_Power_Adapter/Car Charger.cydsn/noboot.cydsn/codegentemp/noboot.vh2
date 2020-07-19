@@ -2,7 +2,7 @@
 --	Conversion of noboot.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed Jul 08 20:05:57 2020
+--	Sun Jul 19 12:42:29 2020
 --
 
 USE cypress.cypress.all;
