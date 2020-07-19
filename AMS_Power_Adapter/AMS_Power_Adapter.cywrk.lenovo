@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AMS_Power_Adapter\noboot">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AMS_Power_Adapter">
 <ExpandedNodeIds>
 <v>AMS_Power_Adapter</v>
 <v>AMS_Power_Adapter\Car Charger\TopDesign</v>
@@ -313,8 +313,7 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Car Charger.cydsn\Car Charger.cydwr" />
-<name v=".\Car Charger.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Car Charger.cydsn\src\app\app.c" />
 <name v=".\Car Charger.cydsn\common\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
@@ -323,7 +322,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1045, 402" SelectedTabbedMdiWindow="524b4417-d5ec-499e-91ec-5655e91838e4"><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\Car Charger.cydwr" Guid="b0d7b704-22a6-4550-8c88-7d5926c09cb0" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\TopDesign\TopDesign.cysch" Guid="5d3d5ed0-e052-4287-8a27-b6a72f3d6f90" /><DocumentWindow Key="G:\Projects\ccg3pa-car-charger-cla\AMS_Power_Adapter\Car Charger.cydsn\common\main.c" Guid="524b4417-d5ec-499e-91ec-5655e91838e4" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="81739035-45c0-4b91-85e3-d7783e89c197" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="746, 438" SelectedTabbedMdiWindow="a7b77769-3f52-443b-b09c-30b068b93cc5"><DocumentWindow Key="G:\Projects\TesT_CLONE_Support_Cypress\AMS_Power_Adapter\Car Charger.cydsn\src\app\app.c" Guid="a7b77769-3f52-443b-b09c-30b068b93cc5" /><DocumentWindow Key="G:\Projects\TesT_CLONE_Support_Cypress\AMS_Power_Adapter\Car Charger.cydsn\common\main.c" Guid="afea2236-ec64-49a1-8b2a-0048c1f161c9" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
